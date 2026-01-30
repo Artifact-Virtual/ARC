@@ -1,6 +1,6 @@
 # Codebase overview — Devs & Contributors
 
-*Generated: 2026-01-18T19:25:58.620331 UTC*
+*Generated: 2026-01-30T23:10:57.701258 UTC*
 
 ## Quick stats
 
@@ -58,472 +58,472 @@
 
 ### .eslintrc.json
 
-- [.eslintrc.json](.eslintrc.json) — 827.0B / 2026-01-18T19:25:57.448473
+- [.eslintrc.json](.eslintrc.json) — 827.0B / 2026-01-30T23:10:57.203055
 ### .githooks
 
-- [.githooks/pre-commit](.githooks/pre-commit) — 1.8KB / 2026-01-18T19:25:57.448473
-- [.githooks/pre-push](.githooks/pre-push) — 904.0B / 2026-01-18T19:25:57.448473
+- [.githooks/pre-commit](.githooks/pre-commit) — 1.8KB / 2026-01-30T23:10:57.203055
+- [.githooks/pre-push](.githooks/pre-push) — 904.0B / 2026-01-30T23:10:57.203055
 ### .github
 
-- [.github/FUNDING.yml](.github/FUNDING.yml) — 464.0B / 2026-01-18T19:25:57.448473
-- [.github/pull_request_template.md](.github/pull_request_template.md) — 1.5KB / 2026-01-18T19:25:57.448473
-- [.github/workflows/ci.yml](.github/workflows/ci.yml) — 1.6KB / 2026-01-18T19:25:57.448473
-- [.github/workflows/code_indexer.yml](.github/workflows/code_indexer.yml) — 1.3KB / 2026-01-18T19:25:57.448473
-- [.github/workflows/security.yml](.github/workflows/security.yml) — 8.9KB / 2026-01-18T19:25:57.449473
+- [.github/FUNDING.yml](.github/FUNDING.yml) — 464.0B / 2026-01-30T23:10:57.203055
+- [.github/pull_request_template.md](.github/pull_request_template.md) — 1.5KB / 2026-01-30T23:10:57.203055
+- [.github/workflows/ci.yml](.github/workflows/ci.yml) — 1.6KB / 2026-01-30T23:10:57.203055
+- [.github/workflows/code_indexer.yml](.github/workflows/code_indexer.yml) — 1.3KB / 2026-01-30T23:10:57.203055
+- [.github/workflows/security.yml](.github/workflows/security.yml) — 8.9KB / 2026-01-30T23:10:57.203055
 ### .gitignore
 
-- [.gitignore](.gitignore) — 453.0B / 2026-01-18T19:25:57.449473
+- [.gitignore](.gitignore) — 453.0B / 2026-01-30T23:10:57.203055
 ### .hardhatignore
 
-- [.hardhatignore](.hardhatignore) — 22.0B / 2026-01-18T19:25:57.449473
+- [.hardhatignore](.hardhatignore) — 22.0B / 2026-01-30T23:10:57.203055
 ### .npmrc
 
-- [.npmrc](.npmrc) — 237.0B / 2026-01-18T19:25:57.449473
+- [.npmrc](.npmrc) — 237.0B / 2026-01-30T23:10:57.203055
 ### .openzeppelin
 
-- [.openzeppelin/base.json](.openzeppelin/base.json) — 22.9KB / 2026-01-18T19:25:57.449473
+- [.openzeppelin/base.json](.openzeppelin/base.json) — 22.9KB / 2026-01-30T23:10:57.203055
 ### .prettierrc.json
 
-- [.prettierrc.json](.prettierrc.json) — 199.0B / 2026-01-18T19:25:57.449473
+- [.prettierrc.json](.prettierrc.json) — 199.0B / 2026-01-30T23:10:57.203055
 ### .solhintignore
 
-- [.solhintignore](.solhintignore) — 51.0B / 2026-01-18T19:25:57.449473
+- [.solhintignore](.solhintignore) — 51.0B / 2026-01-30T23:10:57.203055
 ### address.book
 
-- [address.book](address.book) — 4.3KB / 2026-01-18T19:25:57.450473
+- [address.book](address.book) — 4.3KB / 2026-01-30T23:10:57.204055
 ### ai-engine
 
-- [ai-engine/backend/.dockerignore](ai-engine/backend/.dockerignore) — 40.0B / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/DEPLOYMENT.md](ai-engine/backend/DEPLOYMENT.md) — 6.2KB / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/docker-compose.yml](ai-engine/backend/docker-compose.yml) — 926.0B / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/Dockerfile](ai-engine/backend/Dockerfile) — 341.0B / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/healthcheck.js](ai-engine/backend/healthcheck.js) — 324.0B / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/package.json](ai-engine/backend/package.json) — 1.1KB / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/README.md](ai-engine/backend/README.md) — 5.9KB / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/scripts/generate-backend.sh](ai-engine/backend/scripts/generate-backend.sh) — 9.9KB / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/scripts/setup.sh](ai-engine/backend/scripts/setup.sh) — 2.5KB / 2026-01-18T19:25:57.450473
-- [ai-engine/backend/src/config/index.ts](ai-engine/backend/src/config/index.ts) — 858.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/controllers/ChatController.ts](ai-engine/backend/src/controllers/ChatController.ts) — 1.1KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/controllers/ContractController.ts](ai-engine/backend/src/controllers/ContractController.ts) — 1.7KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/index.ts](ai-engine/backend/src/index.ts) — 552.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/routes/chat.ts](ai-engine/backend/src/routes/chat.ts) — 345.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/routes/contract.ts](ai-engine/backend/src/routes/contract.ts) — 409.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/routes/index.ts](ai-engine/backend/src/routes/index.ts) — 233.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/services/BlockchainService.ts](ai-engine/backend/src/services/BlockchainService.ts) — 1.3KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/services/ContractService.ts](ai-engine/backend/src/services/ContractService.ts) — 907.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/services/LLMService.ts](ai-engine/backend/src/services/LLMService.ts) — 2.1KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/services/MCPService.ts](ai-engine/backend/src/services/MCPService.ts) — 2.2KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/services/VectorDBService.ts](ai-engine/backend/src/services/VectorDBService.ts) — 1.4KB / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/src/utils/logger.ts](ai-engine/backend/src/utils/logger.ts) — 179.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/backend/tsconfig.json](ai-engine/backend/tsconfig.json) — 449.0B / 2026-01-18T19:25:57.451473
-- [ai-engine/frontend/ai-assistant.html](ai-engine/frontend/ai-assistant.html) — 29.6KB / 2026-01-18T19:25:57.451473
-- [ai-engine/README.md](ai-engine/README.md) — 10.7KB / 2026-01-18T19:25:57.450473
+- [ai-engine/backend/.dockerignore](ai-engine/backend/.dockerignore) — 40.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/DEPLOYMENT.md](ai-engine/backend/DEPLOYMENT.md) — 6.2KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/docker-compose.yml](ai-engine/backend/docker-compose.yml) — 926.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/Dockerfile](ai-engine/backend/Dockerfile) — 341.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/healthcheck.js](ai-engine/backend/healthcheck.js) — 324.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/package.json](ai-engine/backend/package.json) — 1.1KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/README.md](ai-engine/backend/README.md) — 5.9KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/scripts/generate-backend.sh](ai-engine/backend/scripts/generate-backend.sh) — 9.9KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/scripts/setup.sh](ai-engine/backend/scripts/setup.sh) — 2.5KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/config/index.ts](ai-engine/backend/src/config/index.ts) — 858.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/controllers/ChatController.ts](ai-engine/backend/src/controllers/ChatController.ts) — 1.1KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/controllers/ContractController.ts](ai-engine/backend/src/controllers/ContractController.ts) — 1.7KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/index.ts](ai-engine/backend/src/index.ts) — 552.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/routes/chat.ts](ai-engine/backend/src/routes/chat.ts) — 345.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/routes/contract.ts](ai-engine/backend/src/routes/contract.ts) — 409.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/routes/index.ts](ai-engine/backend/src/routes/index.ts) — 233.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/services/BlockchainService.ts](ai-engine/backend/src/services/BlockchainService.ts) — 1.3KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/services/ContractService.ts](ai-engine/backend/src/services/ContractService.ts) — 907.0B / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/services/LLMService.ts](ai-engine/backend/src/services/LLMService.ts) — 2.1KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/services/MCPService.ts](ai-engine/backend/src/services/MCPService.ts) — 2.2KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/services/VectorDBService.ts](ai-engine/backend/src/services/VectorDBService.ts) — 1.4KB / 2026-01-30T23:10:57.205055
+- [ai-engine/backend/src/utils/logger.ts](ai-engine/backend/src/utils/logger.ts) — 179.0B / 2026-01-30T23:10:57.206055
+- [ai-engine/backend/tsconfig.json](ai-engine/backend/tsconfig.json) — 449.0B / 2026-01-30T23:10:57.206055
+- [ai-engine/frontend/ai-assistant.html](ai-engine/frontend/ai-assistant.html) — 29.6KB / 2026-01-30T23:10:57.206055
+- [ai-engine/README.md](ai-engine/README.md) — 10.7KB / 2026-01-30T23:10:57.204055
 ### arc-cli
 
-- [arc-cli/DEMO.md](arc-cli/DEMO.md) — 27.9KB / 2026-01-18T19:25:57.451473
-- [arc-cli/index.js](arc-cli/index.js) — 5.2KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/config.js](arc-cli/lib/config.js) — 9.6KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/deployments.js](arc-cli/lib/deployments.js) — 6.7KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/ecosystem.js](arc-cli/lib/ecosystem.js) — 15.2KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/management.js](arc-cli/lib/management.js) — 18.2KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/monitoring.js](arc-cli/lib/monitoring.js) — 15.5KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/navigation.js](arc-cli/lib/navigation.js) — 7.2KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/nfts.js](arc-cli/lib/nfts.js) — 6.1KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/sbts.js](arc-cli/lib/sbts.js) — 8.5KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/theme.js](arc-cli/lib/theme.js) — 2.5KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/tokens.js](arc-cli/lib/tokens.js) — 13.1KB / 2026-01-18T19:25:57.452473
-- [arc-cli/lib/utils.js](arc-cli/lib/utils.js) — 6.3KB / 2026-01-18T19:25:57.452473
-- [arc-cli/package.json](arc-cli/package.json) — 770.0B / 2026-01-18T19:25:57.452473
-- [arc-cli/README.md](arc-cli/README.md) — 15.2KB / 2026-01-18T19:25:57.451473
-- [arc-cli/start.sh](arc-cli/start.sh) — 2.0KB / 2026-01-18T19:25:57.453473
-- [arc-cli/USAGE.md](arc-cli/USAGE.md) — 10.4KB / 2026-01-18T19:25:57.452473
+- [arc-cli/DEMO.md](arc-cli/DEMO.md) — 27.9KB / 2026-01-30T23:10:57.206055
+- [arc-cli/index.js](arc-cli/index.js) — 5.2KB / 2026-01-30T23:10:57.206055
+- [arc-cli/lib/config.js](arc-cli/lib/config.js) — 9.6KB / 2026-01-30T23:10:57.206055
+- [arc-cli/lib/deployments.js](arc-cli/lib/deployments.js) — 6.7KB / 2026-01-30T23:10:57.206055
+- [arc-cli/lib/ecosystem.js](arc-cli/lib/ecosystem.js) — 15.2KB / 2026-01-30T23:10:57.206055
+- [arc-cli/lib/management.js](arc-cli/lib/management.js) — 18.2KB / 2026-01-30T23:10:57.206055
+- [arc-cli/lib/monitoring.js](arc-cli/lib/monitoring.js) — 15.5KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/navigation.js](arc-cli/lib/navigation.js) — 7.2KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/nfts.js](arc-cli/lib/nfts.js) — 6.1KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/sbts.js](arc-cli/lib/sbts.js) — 8.5KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/theme.js](arc-cli/lib/theme.js) — 2.5KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/tokens.js](arc-cli/lib/tokens.js) — 13.1KB / 2026-01-30T23:10:57.207055
+- [arc-cli/lib/utils.js](arc-cli/lib/utils.js) — 6.3KB / 2026-01-30T23:10:57.207055
+- [arc-cli/package.json](arc-cli/package.json) — 770.0B / 2026-01-30T23:10:57.207055
+- [arc-cli/README.md](arc-cli/README.md) — 15.2KB / 2026-01-30T23:10:57.206055
+- [arc-cli/start.sh](arc-cli/start.sh) — 2.0KB / 2026-01-30T23:10:57.207055
+- [arc-cli/USAGE.md](arc-cli/USAGE.md) — 10.4KB / 2026-01-30T23:10:57.206055
 ### arc_preview.html
 
-- [arc_preview.html](arc_preview.html) — 17.0KB / 2026-01-18T19:25:57.453473
+- [arc_preview.html](arc_preview.html) — 17.0KB / 2026-01-30T23:10:57.207055
 ### audit
 
-- [audit/FINDING_TEMPLATE.md](audit/FINDING_TEMPLATE.md) — 2.6KB / 2026-01-18T19:25:57.453473
-- [audit/README.md](audit/README.md) — 2.3KB / 2026-01-18T19:25:57.453473
-- [audit/scripts/generate-report.ts](audit/scripts/generate-report.ts) — 2.8KB / 2026-01-18T19:25:57.453473
-- [audit/security-report.md](audit/security-report.md) — 12.9KB / 2026-01-18T19:25:57.453473
+- [audit/FINDING_TEMPLATE.md](audit/FINDING_TEMPLATE.md) — 2.6KB / 2026-01-30T23:10:57.207055
+- [audit/README.md](audit/README.md) — 2.3KB / 2026-01-30T23:10:57.207055
+- [audit/scripts/generate-report.ts](audit/scripts/generate-report.ts) — 2.8KB / 2026-01-30T23:10:57.208055
+- [audit/security-report.md](audit/security-report.md) — 12.9KB / 2026-01-30T23:10:57.208055
 ### check-positions.js
 
-- [check-positions.js](check-positions.js) — 4.5KB / 2026-01-18T19:25:57.453473
+- [check-positions.js](check-positions.js) — 4.5KB / 2026-01-30T23:10:57.208055
 ### code_indexer.ps1
 
-- [code_indexer.ps1](code_indexer.ps1) — 941.0B / 2026-01-18T19:25:57.453473
+- [code_indexer.ps1](code_indexer.ps1) — 941.0B / 2026-01-30T23:10:57.208055
 ### CODEBASE_OVERVIEW.md
 
-- [CODEBASE_OVERVIEW.md](CODEBASE_OVERVIEW.md) — 46.9KB / 2026-01-18T19:25:57.449473
+- [CODEBASE_OVERVIEW.md](CODEBASE_OVERVIEW.md) — 46.9KB / 2026-01-30T23:10:57.204055
 ### contracts
 
-- [contracts/ai/AIAttestation.sol](contracts/ai/AIAttestation.sol) — 16.2KB / 2026-01-18T19:25:57.454473
-- [contracts/contracts_registry.json](contracts/contracts_registry.json) — 7.8KB / 2026-01-18T19:25:57.454473
-- [contracts/contracts_registry.md](contracts/contracts_registry.md) — 8.7KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/AdamHost.sol](contracts/dao/adam/AdamHost.sol) — 13.9KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/AdamRegistry.sol](contracts/dao/adam/AdamRegistry.sol) — 10.9KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/functions.json](contracts/dao/adam/functions.json) — 19.8KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/interfaces/IAdamHost.sol](contracts/dao/adam/interfaces/IAdamHost.sol) — 3.4KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/interfaces/IAdamPolicy.sol](contracts/dao/adam/interfaces/IAdamPolicy.sol) — 837.0B / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/interfaces/IAdamRegistry.sol](contracts/dao/adam/interfaces/IAdamRegistry.sol) — 3.1KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/policies/Dual2FAPolicy.sol](contracts/dao/adam/policies/Dual2FAPolicy.sol) — 7.1KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/policies/ParamsGuardPolicy.sol](contracts/dao/adam/policies/ParamsGuardPolicy.sol) — 6.6KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/policies/RWARecencyPolicy.sol](contracts/dao/adam/policies/RWARecencyPolicy.sol) — 9.0KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/adam/policies/TreasuryLimiterPolicy.sol](contracts/dao/adam/policies/TreasuryLimiterPolicy.sol) — 10.5KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/adam/README.md](contracts/dao/adam/README.md) — 7.4KB / 2026-01-18T19:25:57.454473
-- [contracts/dao/governance/AdamGovernorIntegration.sol](contracts/dao/governance/AdamGovernorIntegration.sol) — 9.1KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/arc-genesis/AUDIT_REPORT_V2.md](contracts/dao/governance/arc-genesis/AUDIT_REPORT_V2.md) — 20.8KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/genesis/ARCGenesis.sol](contracts/dao/governance/arc-genesis/contracts/genesis/ARCGenesis.sol) — 1.5KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/genesis/IARCGenesis.sol](contracts/dao/governance/arc-genesis/contracts/genesis/IARCGenesis.sol) — 459.0B / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/libraries/Errors.sol](contracts/dao/governance/arc-genesis/contracts/libraries/Errors.sol) — 1.7KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/libraries/MODEL_CLASS_SCHEMA.md](contracts/dao/governance/arc-genesis/contracts/libraries/MODEL_CLASS_SCHEMA.md) — 8.5KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/libraries/ModelClass.sol](contracts/dao/governance/arc-genesis/contracts/libraries/ModelClass.sol) — 1.0KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/libraries/ModelClassSchema.sol](contracts/dao/governance/arc-genesis/contracts/libraries/ModelClassSchema.sol) — 11.2KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistry.sol](contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistry.sol) — 1.9KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistryV2.sol](contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistryV2.sol) — 9.0KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistry.sol](contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistry.sol) — 660.0B / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistryV2.sol](contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistryV2.sol) — 2.6KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/registry/RegistryProxy.sol](contracts/dao/governance/arc-genesis/contracts/registry/RegistryProxy.sol) — 4.4KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBT.sol](contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBT.sol) — 2.8KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBTV2.sol](contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBTV2.sol) — 6.4KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/sbt/IARCModelSBT.sol](contracts/dao/governance/arc-genesis/contracts/sbt/IARCModelSBT.sol) — 814.0B / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/sbt/SBTProxy.sol](contracts/dao/governance/arc-genesis/contracts/sbt/SBTProxy.sol) — 2.2KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/contracts/utils/Immutable.sol](contracts/dao/governance/arc-genesis/contracts/utils/Immutable.sol) — 1.4KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/DEPLOYMENT_GUIDE.md](contracts/dao/governance/arc-genesis/DEPLOYMENT_GUIDE.md) — 13.1KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/DOCUMENTATION.md](contracts/dao/governance/arc-genesis/DOCUMENTATION.md) — 23.6KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/foundry.toml](contracts/dao/governance/arc-genesis/foundry.toml) — 661.0B / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-genesis/INTEGRATION_GUIDE.md](contracts/dao/governance/arc-genesis/INTEGRATION_GUIDE.md) — 15.6KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-genesis/README.md](contracts/dao/governance/arc-genesis/README.md) — 8.9KB / 2026-01-18T19:25:57.456473
-- [contracts/dao/governance/arc-protocol-genesis/contracts/ARCProtocolGenesis.sol](contracts/dao/governance/arc-protocol-genesis/contracts/ARCProtocolGenesis.sol) — 16.4KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/arc-protocol-genesis/contracts/IARCProtocolGenesis.sol](contracts/dao/governance/arc-protocol-genesis/contracts/IARCProtocolGenesis.sol) — 3.3KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/arc-protocol-genesis/contracts/L2GenesisVerifier.sol](contracts/dao/governance/arc-protocol-genesis/contracts/L2GenesisVerifier.sol) — 6.9KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/arc-protocol-genesis/DESIGN_BLUEPRINT.md](contracts/dao/governance/arc-protocol-genesis/DESIGN_BLUEPRINT.md) — 37.8KB / 2026-01-18T19:25:57.457473
-- [contracts/dao/governance/arc-protocol-genesis/foundry.toml](contracts/dao/governance/arc-protocol-genesis/foundry.toml) — 966.0B / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/arc-protocol-genesis/README.md](contracts/dao/governance/arc-protocol-genesis/README.md) — 14.9KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/ARCDAO.sol](contracts/dao/governance/ARCDAO.sol) — 15.1KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/ARCGovernor.sol](contracts/dao/governance/ARCGovernor.sol) — 22.0KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/ARCProposal.sol](contracts/dao/governance/ARCProposal.sol) — 21.1KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/ARCTimelock.sol](contracts/dao/governance/ARCTimelock.sol) — 16.9KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/ARCTreasury.sol](contracts/dao/governance/ARCTreasury.sol) — 17.5KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/ARCVoting.sol](contracts/dao/governance/ARCVoting.sol) — 18.0KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/governance/interfaces/IEligibility.sol](contracts/dao/governance/interfaces/IEligibility.sol) — 2.5KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/governance/README.md](contracts/dao/governance/README.md) — 10.9KB / 2026-01-18T19:25:57.455473
-- [contracts/dao/interfaces/IARCDAO.sol](contracts/dao/interfaces/IARCDAO.sol) — 2.6KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/interfaces/IARCGovernor.sol](contracts/dao/interfaces/IARCGovernor.sol) — 2.5KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/interfaces/IARCProposal.sol](contracts/dao/interfaces/IARCProposal.sol) — 2.7KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/interfaces/IARCTimelock.sol](contracts/dao/interfaces/IARCTimelock.sol) — 2.3KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/interfaces/IARCTreasury.sol](contracts/dao/interfaces/IARCTreasury.sol) — 2.7KB / 2026-01-18T19:25:57.458473
-- [contracts/dao/interfaces/IARCVoting.sol](contracts/dao/interfaces/IARCVoting.sol) — 2.7KB / 2026-01-18T19:25:57.458473
-- [contracts/defi/ARCSwap.sol](contracts/defi/ARCSwap.sol) — 16.4KB / 2026-01-18T19:25:57.458473
-- [contracts/defi/hooks/ARCxHook.sol](contracts/defi/hooks/ARCxHook.sol) — 0.0B / 2026-01-18T19:25:57.459473
-- [contracts/defi/hooks/ARCxLPHook.sol](contracts/defi/hooks/ARCxLPHook.sol) — 9.9KB / 2026-01-18T19:25:57.459473
-- [contracts/defi/infrastructure/ARCBridge.sol](contracts/defi/infrastructure/ARCBridge.sol) — 20.3KB / 2026-01-18T19:25:57.459473
-- [contracts/defi/MockPoolManager.sol](contracts/defi/MockPoolManager.sol) — 3.3KB / 2026-01-18T19:25:57.458473
-- [contracts/defi/PenaltyVault.sol](contracts/defi/PenaltyVault.sol) — 1.2KB / 2026-01-18T19:25:57.458473
-- [contracts/defi/rwa/ARC_RWARegistry.sol](contracts/defi/rwa/ARC_RWARegistry.sol) — 16.7KB / 2026-01-18T19:25:57.459473
-- [contracts/defi/rwa/IRWARegistry.sol](contracts/defi/rwa/IRWARegistry.sol) — 8.0KB / 2026-01-18T19:25:57.459473
-- [contracts/defi/rwa/SlashingVault.sol](contracts/defi/rwa/SlashingVault.sol) — 14.0KB / 2026-01-18T19:25:57.459473
-- [contracts/defi/StakingVault.sol](contracts/defi/StakingVault.sol) — 5.5KB / 2026-01-18T19:25:57.458473
-- [contracts/defi/TreasuryRewards.sol](contracts/defi/TreasuryRewards.sol) — 4.5KB / 2026-01-18T19:25:57.458473
-- [contracts/mocks/MockEligibility.sol](contracts/mocks/MockEligibility.sol) — 1.1KB / 2026-01-18T19:25:57.459473
-- [contracts/pool/IPoolManager.sol](contracts/pool/IPoolManager.sol) — 1.6KB / 2026-01-18T19:25:57.459473
-- [contracts/pool/IPositionManager.sol](contracts/pool/IPositionManager.sol) — 715.0B / 2026-01-18T19:25:57.459473
-- [contracts/pool/IWETH.sol](contracts/pool/IWETH.sol) — 234.0B / 2026-01-18T19:25:57.459473
-- [contracts/thirdparty/GasOptimization.sol](contracts/thirdparty/GasOptimization.sol) — 8.6KB / 2026-01-18T19:25:57.459473
-- [contracts/thirdparty/uniswap-v4-core/ProtocolFees.sol](contracts/thirdparty/uniswap-v4-core/ProtocolFees.sol) — 0.0B / 2026-01-18T19:25:57.459473
-- [contracts/thirdparty/uniswap-v4/base/ERC721Permit_v4.sol](contracts/thirdparty/uniswap-v4/base/ERC721Permit_v4.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/hooks/WETHHook.sol](contracts/thirdparty/uniswap-v4/hooks/WETHHook.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/hooks/WstETHHook.sol](contracts/thirdparty/uniswap-v4/hooks/WstETHHook.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/interfaces/IHooks.sol](contracts/thirdparty/uniswap-v4/interfaces/IHooks.sol) — 3.7KB / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/interfaces/IPermit2Forwarder.sol](contracts/thirdparty/uniswap-v4/interfaces/IPermit2Forwarder.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/libraries/Descriptor.sol](contracts/thirdparty/uniswap-v4/libraries/Descriptor.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/libraries/SafeCurrencyMetadata.sol](contracts/thirdparty/uniswap-v4/libraries/SafeCurrencyMetadata.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/libraries/SVG.sol](contracts/thirdparty/uniswap-v4/libraries/SVG.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/NonfungiblePositionManager.sol](contracts/thirdparty/uniswap-v4/NonfungiblePositionManager.sol) — 0.0B / 2026-01-18T19:25:57.459473
-- [contracts/thirdparty/uniswap-v4/permit2/src/interfaces/IAllowanceTransfer.sol](contracts/thirdparty/uniswap-v4/permit2/src/interfaces/IAllowanceTransfer.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/permit2/src/libraries/SignatureVerification.sol](contracts/thirdparty/uniswap-v4/permit2/src/libraries/SignatureVerification.sol) — 0.0B / 2026-01-18T19:25:57.460473
-- [contracts/thirdparty/uniswap-v4/PositionManager.sol](contracts/thirdparty/uniswap-v4/PositionManager.sol) — 0.0B / 2026-01-18T19:25:57.459473
-- [contracts/tokens/airdrop/ARCxAirdropContract.sol](contracts/tokens/airdrop/ARCxAirdropContract.sol) — 14.2KB / 2026-01-18T19:25:57.460473
-- [contracts/tokens/arc-s/ARCs.sol](contracts/tokens/arc-s/ARCs.sol) — 3.8KB / 2026-01-18T19:25:57.460473
-- [contracts/tokens/arc-s/DEPLOYMENT_CHECKLIST.md](contracts/tokens/arc-s/DEPLOYMENT_CHECKLIST.md) — 4.8KB / 2026-01-18T19:25:57.460473
-- [contracts/tokens/arc-s/deployment_notes.md](contracts/tokens/arc-s/deployment_notes.md) — 4.1KB / 2026-01-18T19:25:57.460473
-- [contracts/tokens/arc-x/ARCxMath.sol](contracts/tokens/arc-x/ARCxMath.sol) — 1.8KB / 2026-01-18T19:25:57.460473
-- [contracts/tokens/arc-x/ARCxV2.sol](contracts/tokens/arc-x/ARCxV2.sol) — 16.1KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/arc-x/GasOptimizedARCx.sol](contracts/tokens/arc-x/GasOptimizedARCx.sol) — 8.4KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/arc-x/interfaces/IERC20.sol](contracts/tokens/arc-x/interfaces/IERC20.sol) — 712.0B / 2026-01-18T19:25:57.461473
-- [contracts/tokens/arc-x/README.md](contracts/tokens/arc-x/README.md) — 24.9KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/MockARCxToken.sol](contracts/tokens/MockARCxToken.sol) — 359.0B / 2026-01-18T19:25:57.460473
-- [contracts/tokens/MockWETH.sol](contracts/tokens/MockWETH.sol) — 560.0B / 2026-01-18T19:25:57.460473
-- [contracts/tokens/nft/CONTRACT_MAPPING.md](contracts/tokens/nft/CONTRACT_MAPPING.md) — 2.9KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/CompanionGovernance.sol](contracts/tokens/nft/contracts/CompanionGovernance.sol) — 5.2KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/EmergencyManager.sol](contracts/tokens/nft/contracts/EmergencyManager.sol) — 1016.0B / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/EvolvingCompanion.sol](contracts/tokens/nft/contracts/EvolvingCompanion.sol) — 5.0KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/EvolvingCompanionUpgradeable.sol](contracts/tokens/nft/contracts/EvolvingCompanionUpgradeable.sol) — 3.4KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ModelRegistry.sol](contracts/tokens/nft/contracts/ModelRegistry.sol) — 903.0B / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ModelRegistryUpgradeable.sol](contracts/tokens/nft/contracts/ModelRegistryUpgradeable.sol) — 11.6KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ModelRegistryUpgradeableSimple.sol](contracts/tokens/nft/contracts/ModelRegistryUpgradeableSimple.sol) — 1.5KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ModuleManager.sol](contracts/tokens/nft/contracts/ModuleManager.sol) — 1.7KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ModuleMock.sol](contracts/tokens/nft/contracts/ModuleMock.sol) — 1.2KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/contracts/ProverRegistry.sol](contracts/tokens/nft/contracts/ProverRegistry.sol) — 1.0KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/contracts/TokenBoundAccount.sol](contracts/tokens/nft/contracts/TokenBoundAccount.sol) — 2.2KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/contracts/TokenBoundAccountRegistry.sol](contracts/tokens/nft/contracts/TokenBoundAccountRegistry.sol) — 2.3KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/contracts/TraitVault.sol](contracts/tokens/nft/contracts/TraitVault.sol) — 3.9KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/contracts/TraitVaultUpgradeable.sol](contracts/tokens/nft/contracts/TraitVaultUpgradeable.sol) — 3.9KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/.gitignore](contracts/tokens/nft/frontend/.gitignore) — 480.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/data/archetypes.json](contracts/tokens/nft/frontend/data/archetypes.json) — 1.3KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/data/traits.json](contracts/tokens/nft/frontend/data/traits.json) — 1022.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/eslint.config.mjs](contracts/tokens/nft/frontend/eslint.config.mjs) — 524.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/next.config.ts](contracts/tokens/nft/frontend/next.config.ts) — 133.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/package.json](contracts/tokens/nft/frontend/package.json) — 794.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/postcss.config.mjs](contracts/tokens/nft/frontend/postcss.config.mjs) — 81.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/public/file.svg](contracts/tokens/nft/frontend/public/file.svg) — 391.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/public/globe.svg](contracts/tokens/nft/frontend/public/globe.svg) — 1.0KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/public/next.svg](contracts/tokens/nft/frontend/public/next.svg) — 1.3KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/public/vercel.svg](contracts/tokens/nft/frontend/public/vercel.svg) — 128.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/public/window.svg](contracts/tokens/nft/frontend/public/window.svg) — 385.0B / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/README.md](contracts/tokens/nft/frontend/README.md) — 13.3KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/src/app/companion/[id]/page.tsx](contracts/tokens/nft/frontend/src/app/companion/[id]/page.tsx) — 1.2KB / 2026-01-18T19:25:57.462473
-- [contracts/tokens/nft/frontend/src/app/favicon.ico](contracts/tokens/nft/frontend/src/app/favicon.ico) — 25.3KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/app/globals.css](contracts/tokens/nft/frontend/src/app/globals.css) — 488.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/app/layout.tsx](contracts/tokens/nft/frontend/src/app/layout.tsx) — 831.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/app/page.tsx](contracts/tokens/nft/frontend/src/app/page.tsx) — 8.5KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/components/CompanionMint.tsx](contracts/tokens/nft/frontend/src/components/CompanionMint.tsx) — 5.7KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/components/CompanionProfile.tsx](contracts/tokens/nft/frontend/src/components/CompanionProfile.tsx) — 13.9KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/components/providers.tsx](contracts/tokens/nft/frontend/src/components/providers.tsx) — 792.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/src/components/TraitGallery.tsx](contracts/tokens/nft/frontend/src/components/TraitGallery.tsx) — 4.8KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/frontend/tsconfig.json](contracts/tokens/nft/frontend/tsconfig.json) — 602.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/hardhat.config.js](contracts/tokens/nft/hardhat.config.js) — 526.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/package.json](contracts/tokens/nft/package.json) — 723.0B / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/README.md](contracts/tokens/nft/README.md) — 11.3KB / 2026-01-18T19:25:57.461473
-- [contracts/tokens/nft/scripts/deploy.js](contracts/tokens/nft/scripts/deploy.js) — 1.8KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/scripts/deploy_roles_and_demo.js](contracts/tokens/nft/scripts/deploy_roles_and_demo.js) — 1.8KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/scripts/upgrade.js](contracts/tokens/nft/scripts/upgrade.js) — 1.3KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/test/EvolvingCompanionAccessControl.test.js](contracts/tokens/nft/test/EvolvingCompanionAccessControl.test.js) — 7.0KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/nft/test/phase1.test.js](contracts/tokens/nft/test/phase1.test.js) — 7.7KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/sbt/ARC_Eligibility.sol](contracts/tokens/sbt/ARC_Eligibility.sol) — 14.3KB / 2026-01-18T19:25:57.463473
-- [contracts/tokens/sbt/ARC_IdentitySBT.sol](contracts/tokens/sbt/ARC_IdentitySBT.sol) — 18.6KB / 2026-01-18T19:25:57.464473
-- [contracts/tokens/sbt/readme.md](contracts/tokens/sbt/readme.md) — 3.0KB / 2026-01-18T19:25:57.464473
-- [contracts/tokens/vesting/ARCxVestingContract.sol](contracts/tokens/vesting/ARCxVestingContract.sol) — 13.7KB / 2026-01-18T19:25:57.464473
+- [contracts/ai/AIAttestation.sol](contracts/ai/AIAttestation.sol) — 16.2KB / 2026-01-30T23:10:57.208055
+- [contracts/contracts_registry.json](contracts/contracts_registry.json) — 7.8KB / 2026-01-30T23:10:57.208055
+- [contracts/contracts_registry.md](contracts/contracts_registry.md) — 8.7KB / 2026-01-30T23:10:57.208055
+- [contracts/dao/adam/AdamHost.sol](contracts/dao/adam/AdamHost.sol) — 13.9KB / 2026-01-30T23:10:57.208055
+- [contracts/dao/adam/AdamRegistry.sol](contracts/dao/adam/AdamRegistry.sol) — 10.9KB / 2026-01-30T23:10:57.208055
+- [contracts/dao/adam/functions.json](contracts/dao/adam/functions.json) — 19.8KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/interfaces/IAdamHost.sol](contracts/dao/adam/interfaces/IAdamHost.sol) — 3.4KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/interfaces/IAdamPolicy.sol](contracts/dao/adam/interfaces/IAdamPolicy.sol) — 837.0B / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/interfaces/IAdamRegistry.sol](contracts/dao/adam/interfaces/IAdamRegistry.sol) — 3.1KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/policies/Dual2FAPolicy.sol](contracts/dao/adam/policies/Dual2FAPolicy.sol) — 7.1KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/policies/ParamsGuardPolicy.sol](contracts/dao/adam/policies/ParamsGuardPolicy.sol) — 6.6KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/policies/RWARecencyPolicy.sol](contracts/dao/adam/policies/RWARecencyPolicy.sol) — 9.0KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/policies/TreasuryLimiterPolicy.sol](contracts/dao/adam/policies/TreasuryLimiterPolicy.sol) — 10.5KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/adam/README.md](contracts/dao/adam/README.md) — 7.4KB / 2026-01-30T23:10:57.208055
+- [contracts/dao/governance/AdamGovernorIntegration.sol](contracts/dao/governance/AdamGovernorIntegration.sol) — 9.1KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/arc-genesis/AUDIT_REPORT_V2.md](contracts/dao/governance/arc-genesis/AUDIT_REPORT_V2.md) — 20.8KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/arc-genesis/contracts/genesis/ARCGenesis.sol](contracts/dao/governance/arc-genesis/contracts/genesis/ARCGenesis.sol) — 1.5KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/genesis/IARCGenesis.sol](contracts/dao/governance/arc-genesis/contracts/genesis/IARCGenesis.sol) — 459.0B / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/libraries/Errors.sol](contracts/dao/governance/arc-genesis/contracts/libraries/Errors.sol) — 1.7KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/libraries/MODEL_CLASS_SCHEMA.md](contracts/dao/governance/arc-genesis/contracts/libraries/MODEL_CLASS_SCHEMA.md) — 8.5KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/libraries/ModelClass.sol](contracts/dao/governance/arc-genesis/contracts/libraries/ModelClass.sol) — 1.0KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/libraries/ModelClassSchema.sol](contracts/dao/governance/arc-genesis/contracts/libraries/ModelClassSchema.sol) — 11.2KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistry.sol](contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistry.sol) — 1.9KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistryV2.sol](contracts/dao/governance/arc-genesis/contracts/registry/ARCModelRegistryV2.sol) — 9.0KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistry.sol](contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistry.sol) — 660.0B / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistryV2.sol](contracts/dao/governance/arc-genesis/contracts/registry/IARCModelRegistryV2.sol) — 2.6KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/registry/RegistryProxy.sol](contracts/dao/governance/arc-genesis/contracts/registry/RegistryProxy.sol) — 4.4KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBT.sol](contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBT.sol) — 2.8KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBTV2.sol](contracts/dao/governance/arc-genesis/contracts/sbt/ARCModelSBTV2.sol) — 6.4KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-genesis/contracts/sbt/IARCModelSBT.sol](contracts/dao/governance/arc-genesis/contracts/sbt/IARCModelSBT.sol) — 814.0B / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-genesis/contracts/sbt/SBTProxy.sol](contracts/dao/governance/arc-genesis/contracts/sbt/SBTProxy.sol) — 2.2KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-genesis/contracts/utils/Immutable.sol](contracts/dao/governance/arc-genesis/contracts/utils/Immutable.sol) — 1.4KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-genesis/DEPLOYMENT_GUIDE.md](contracts/dao/governance/arc-genesis/DEPLOYMENT_GUIDE.md) — 13.1KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/arc-genesis/DOCUMENTATION.md](contracts/dao/governance/arc-genesis/DOCUMENTATION.md) — 23.6KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/arc-genesis/foundry.toml](contracts/dao/governance/arc-genesis/foundry.toml) — 661.0B / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-genesis/INTEGRATION_GUIDE.md](contracts/dao/governance/arc-genesis/INTEGRATION_GUIDE.md) — 15.6KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/arc-genesis/README.md](contracts/dao/governance/arc-genesis/README.md) — 8.9KB / 2026-01-30T23:10:57.211055
+- [contracts/dao/governance/arc-protocol-genesis/contracts/ARCProtocolGenesis.sol](contracts/dao/governance/arc-protocol-genesis/contracts/ARCProtocolGenesis.sol) — 16.4KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-protocol-genesis/contracts/IARCProtocolGenesis.sol](contracts/dao/governance/arc-protocol-genesis/contracts/IARCProtocolGenesis.sol) — 3.3KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-protocol-genesis/contracts/L2GenesisVerifier.sol](contracts/dao/governance/arc-protocol-genesis/contracts/L2GenesisVerifier.sol) — 6.9KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-protocol-genesis/DESIGN_BLUEPRINT.md](contracts/dao/governance/arc-protocol-genesis/DESIGN_BLUEPRINT.md) — 37.8KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-protocol-genesis/foundry.toml](contracts/dao/governance/arc-protocol-genesis/foundry.toml) — 966.0B / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/arc-protocol-genesis/README.md](contracts/dao/governance/arc-protocol-genesis/README.md) — 14.9KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/ARCDAO.sol](contracts/dao/governance/ARCDAO.sol) — 15.1KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/governance/ARCGovernor.sol](contracts/dao/governance/ARCGovernor.sol) — 22.0KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/governance/ARCProposal.sol](contracts/dao/governance/ARCProposal.sol) — 21.1KB / 2026-01-30T23:10:57.209055
+- [contracts/dao/governance/ARCTimelock.sol](contracts/dao/governance/ARCTimelock.sol) — 16.9KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/ARCTreasury.sol](contracts/dao/governance/ARCTreasury.sol) — 17.5KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/ARCVoting.sol](contracts/dao/governance/ARCVoting.sol) — 18.0KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/governance/interfaces/IEligibility.sol](contracts/dao/governance/interfaces/IEligibility.sol) — 2.5KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/governance/README.md](contracts/dao/governance/README.md) — 10.9KB / 2026-01-30T23:10:57.210055
+- [contracts/dao/interfaces/IARCDAO.sol](contracts/dao/interfaces/IARCDAO.sol) — 2.6KB / 2026-01-30T23:10:57.212055
+- [contracts/dao/interfaces/IARCGovernor.sol](contracts/dao/interfaces/IARCGovernor.sol) — 2.5KB / 2026-01-30T23:10:57.213055
+- [contracts/dao/interfaces/IARCProposal.sol](contracts/dao/interfaces/IARCProposal.sol) — 2.7KB / 2026-01-30T23:10:57.213055
+- [contracts/dao/interfaces/IARCTimelock.sol](contracts/dao/interfaces/IARCTimelock.sol) — 2.3KB / 2026-01-30T23:10:57.213055
+- [contracts/dao/interfaces/IARCTreasury.sol](contracts/dao/interfaces/IARCTreasury.sol) — 2.7KB / 2026-01-30T23:10:57.213055
+- [contracts/dao/interfaces/IARCVoting.sol](contracts/dao/interfaces/IARCVoting.sol) — 2.7KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/ARCSwap.sol](contracts/defi/ARCSwap.sol) — 16.4KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/hooks/ARCxHook.sol](contracts/defi/hooks/ARCxHook.sol) — 0.0B / 2026-01-30T23:10:57.213055
+- [contracts/defi/hooks/ARCxLPHook.sol](contracts/defi/hooks/ARCxLPHook.sol) — 9.9KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/infrastructure/ARCBridge.sol](contracts/defi/infrastructure/ARCBridge.sol) — 20.3KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/MockPoolManager.sol](contracts/defi/MockPoolManager.sol) — 3.3KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/PenaltyVault.sol](contracts/defi/PenaltyVault.sol) — 1.2KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/rwa/ARC_RWARegistry.sol](contracts/defi/rwa/ARC_RWARegistry.sol) — 16.7KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/rwa/IRWARegistry.sol](contracts/defi/rwa/IRWARegistry.sol) — 8.0KB / 2026-01-30T23:10:57.214056
+- [contracts/defi/rwa/SlashingVault.sol](contracts/defi/rwa/SlashingVault.sol) — 14.0KB / 2026-01-30T23:10:57.214056
+- [contracts/defi/StakingVault.sol](contracts/defi/StakingVault.sol) — 5.5KB / 2026-01-30T23:10:57.213055
+- [contracts/defi/TreasuryRewards.sol](contracts/defi/TreasuryRewards.sol) — 4.5KB / 2026-01-30T23:10:57.213055
+- [contracts/mocks/MockEligibility.sol](contracts/mocks/MockEligibility.sol) — 1.1KB / 2026-01-30T23:10:57.214056
+- [contracts/pool/IPoolManager.sol](contracts/pool/IPoolManager.sol) — 1.6KB / 2026-01-30T23:10:57.214056
+- [contracts/pool/IPositionManager.sol](contracts/pool/IPositionManager.sol) — 715.0B / 2026-01-30T23:10:57.214056
+- [contracts/pool/IWETH.sol](contracts/pool/IWETH.sol) — 234.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/GasOptimization.sol](contracts/thirdparty/GasOptimization.sol) — 8.6KB / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4-core/ProtocolFees.sol](contracts/thirdparty/uniswap-v4-core/ProtocolFees.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/base/ERC721Permit_v4.sol](contracts/thirdparty/uniswap-v4/base/ERC721Permit_v4.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/hooks/WETHHook.sol](contracts/thirdparty/uniswap-v4/hooks/WETHHook.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/hooks/WstETHHook.sol](contracts/thirdparty/uniswap-v4/hooks/WstETHHook.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/interfaces/IHooks.sol](contracts/thirdparty/uniswap-v4/interfaces/IHooks.sol) — 3.7KB / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/interfaces/IPermit2Forwarder.sol](contracts/thirdparty/uniswap-v4/interfaces/IPermit2Forwarder.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/libraries/Descriptor.sol](contracts/thirdparty/uniswap-v4/libraries/Descriptor.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/libraries/SafeCurrencyMetadata.sol](contracts/thirdparty/uniswap-v4/libraries/SafeCurrencyMetadata.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/libraries/SVG.sol](contracts/thirdparty/uniswap-v4/libraries/SVG.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/NonfungiblePositionManager.sol](contracts/thirdparty/uniswap-v4/NonfungiblePositionManager.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/permit2/src/interfaces/IAllowanceTransfer.sol](contracts/thirdparty/uniswap-v4/permit2/src/interfaces/IAllowanceTransfer.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/permit2/src/libraries/SignatureVerification.sol](contracts/thirdparty/uniswap-v4/permit2/src/libraries/SignatureVerification.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/thirdparty/uniswap-v4/PositionManager.sol](contracts/thirdparty/uniswap-v4/PositionManager.sol) — 0.0B / 2026-01-30T23:10:57.214056
+- [contracts/tokens/airdrop/ARCxAirdropContract.sol](contracts/tokens/airdrop/ARCxAirdropContract.sol) — 14.2KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-s/ARCs.sol](contracts/tokens/arc-s/ARCs.sol) — 3.8KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-s/DEPLOYMENT_CHECKLIST.md](contracts/tokens/arc-s/DEPLOYMENT_CHECKLIST.md) — 4.8KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-s/deployment_notes.md](contracts/tokens/arc-s/deployment_notes.md) — 4.1KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-x/ARCxMath.sol](contracts/tokens/arc-x/ARCxMath.sol) — 1.8KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-x/ARCxV2.sol](contracts/tokens/arc-x/ARCxV2.sol) — 16.1KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-x/GasOptimizedARCx.sol](contracts/tokens/arc-x/GasOptimizedARCx.sol) — 8.4KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-x/interfaces/IERC20.sol](contracts/tokens/arc-x/interfaces/IERC20.sol) — 712.0B / 2026-01-30T23:10:57.215055
+- [contracts/tokens/arc-x/README.md](contracts/tokens/arc-x/README.md) — 24.9KB / 2026-01-30T23:10:57.215055
+- [contracts/tokens/MockARCxToken.sol](contracts/tokens/MockARCxToken.sol) — 359.0B / 2026-01-30T23:10:57.215055
+- [contracts/tokens/MockWETH.sol](contracts/tokens/MockWETH.sol) — 560.0B / 2026-01-30T23:10:57.215055
+- [contracts/tokens/nft/CONTRACT_MAPPING.md](contracts/tokens/nft/CONTRACT_MAPPING.md) — 2.9KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/CompanionGovernance.sol](contracts/tokens/nft/contracts/CompanionGovernance.sol) — 5.2KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/EmergencyManager.sol](contracts/tokens/nft/contracts/EmergencyManager.sol) — 1016.0B / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/EvolvingCompanion.sol](contracts/tokens/nft/contracts/EvolvingCompanion.sol) — 5.0KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/EvolvingCompanionUpgradeable.sol](contracts/tokens/nft/contracts/EvolvingCompanionUpgradeable.sol) — 3.4KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ModelRegistry.sol](contracts/tokens/nft/contracts/ModelRegistry.sol) — 903.0B / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ModelRegistryUpgradeable.sol](contracts/tokens/nft/contracts/ModelRegistryUpgradeable.sol) — 11.6KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ModelRegistryUpgradeableSimple.sol](contracts/tokens/nft/contracts/ModelRegistryUpgradeableSimple.sol) — 1.5KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ModuleManager.sol](contracts/tokens/nft/contracts/ModuleManager.sol) — 1.7KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ModuleMock.sol](contracts/tokens/nft/contracts/ModuleMock.sol) — 1.2KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/ProverRegistry.sol](contracts/tokens/nft/contracts/ProverRegistry.sol) — 1.0KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/TokenBoundAccount.sol](contracts/tokens/nft/contracts/TokenBoundAccount.sol) — 2.2KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/TokenBoundAccountRegistry.sol](contracts/tokens/nft/contracts/TokenBoundAccountRegistry.sol) — 2.3KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/TraitVault.sol](contracts/tokens/nft/contracts/TraitVault.sol) — 3.9KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/contracts/TraitVaultUpgradeable.sol](contracts/tokens/nft/contracts/TraitVaultUpgradeable.sol) — 3.9KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/frontend/.gitignore](contracts/tokens/nft/frontend/.gitignore) — 480.0B / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/frontend/data/archetypes.json](contracts/tokens/nft/frontend/data/archetypes.json) — 1.3KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/frontend/data/traits.json](contracts/tokens/nft/frontend/data/traits.json) — 1022.0B / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/frontend/eslint.config.mjs](contracts/tokens/nft/frontend/eslint.config.mjs) — 524.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/next.config.ts](contracts/tokens/nft/frontend/next.config.ts) — 133.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/package.json](contracts/tokens/nft/frontend/package.json) — 794.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/postcss.config.mjs](contracts/tokens/nft/frontend/postcss.config.mjs) — 81.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/public/file.svg](contracts/tokens/nft/frontend/public/file.svg) — 391.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/public/globe.svg](contracts/tokens/nft/frontend/public/globe.svg) — 1.0KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/public/next.svg](contracts/tokens/nft/frontend/public/next.svg) — 1.3KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/public/vercel.svg](contracts/tokens/nft/frontend/public/vercel.svg) — 128.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/public/window.svg](contracts/tokens/nft/frontend/public/window.svg) — 385.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/README.md](contracts/tokens/nft/frontend/README.md) — 13.3KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/frontend/src/app/companion/[id]/page.tsx](contracts/tokens/nft/frontend/src/app/companion/[id]/page.tsx) — 1.2KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/app/favicon.ico](contracts/tokens/nft/frontend/src/app/favicon.ico) — 25.3KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/app/globals.css](contracts/tokens/nft/frontend/src/app/globals.css) — 488.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/app/layout.tsx](contracts/tokens/nft/frontend/src/app/layout.tsx) — 831.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/app/page.tsx](contracts/tokens/nft/frontend/src/app/page.tsx) — 8.5KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/components/CompanionMint.tsx](contracts/tokens/nft/frontend/src/components/CompanionMint.tsx) — 5.7KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/components/CompanionProfile.tsx](contracts/tokens/nft/frontend/src/components/CompanionProfile.tsx) — 13.9KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/components/providers.tsx](contracts/tokens/nft/frontend/src/components/providers.tsx) — 792.0B / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/src/components/TraitGallery.tsx](contracts/tokens/nft/frontend/src/components/TraitGallery.tsx) — 4.8KB / 2026-01-30T23:10:57.217056
+- [contracts/tokens/nft/frontend/tsconfig.json](contracts/tokens/nft/frontend/tsconfig.json) — 602.0B / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/hardhat.config.js](contracts/tokens/nft/hardhat.config.js) — 526.0B / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/package.json](contracts/tokens/nft/package.json) — 723.0B / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/README.md](contracts/tokens/nft/README.md) — 11.3KB / 2026-01-30T23:10:57.216055
+- [contracts/tokens/nft/scripts/deploy.js](contracts/tokens/nft/scripts/deploy.js) — 1.8KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/scripts/deploy_roles_and_demo.js](contracts/tokens/nft/scripts/deploy_roles_and_demo.js) — 1.8KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/scripts/upgrade.js](contracts/tokens/nft/scripts/upgrade.js) — 1.3KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/test/EvolvingCompanionAccessControl.test.js](contracts/tokens/nft/test/EvolvingCompanionAccessControl.test.js) — 7.0KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/nft/test/phase1.test.js](contracts/tokens/nft/test/phase1.test.js) — 7.7KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/sbt/ARC_Eligibility.sol](contracts/tokens/sbt/ARC_Eligibility.sol) — 14.3KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/sbt/ARC_IdentitySBT.sol](contracts/tokens/sbt/ARC_IdentitySBT.sol) — 18.6KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/sbt/readme.md](contracts/tokens/sbt/readme.md) — 3.0KB / 2026-01-30T23:10:57.218055
+- [contracts/tokens/vesting/ARCxVestingContract.sol](contracts/tokens/vesting/ARCxVestingContract.sol) — 13.7KB / 2026-01-30T23:10:57.218055
 ### css
 
-- [css/lines.svg](css/lines.svg) — 413.0B / 2026-01-18T19:25:57.464473
-- [css/style.css](css/style.css) — 14.3KB / 2026-01-18T19:25:57.464473
+- [css/lines.svg](css/lines.svg) — 413.0B / 2026-01-30T23:10:57.218055
+- [css/style.css](css/style.css) — 14.3KB / 2026-01-30T23:10:57.218055
 ### deploy_auction.ps1
 
-- [deploy_auction.ps1](deploy_auction.ps1) — 5.2KB / 2026-01-18T19:25:57.464473
+- [deploy_auction.ps1](deploy_auction.ps1) — 5.2KB / 2026-01-30T23:10:57.218055
 ### deployment
 
-- [deployment/testnet/deploy-ganache.ts](deployment/testnet/deploy-ganache.ts) — 0.0B / 2026-01-18T19:25:57.464473
+- [deployment/testnet/deploy-ganache.ts](deployment/testnet/deploy-ganache.ts) — 0.0B / 2026-01-30T23:10:57.219056
 ### docs
 
-- [docs/00_INDEX.md](docs/00_INDEX.md) — 7.9KB / 2026-01-18T19:25:57.464473
-- [docs/01_INTRODUCTION.md](docs/01_INTRODUCTION.md) — 3.1KB / 2026-01-18T19:25:57.464473
-- [docs/02_ARCHITECTURE.md](docs/02_ARCHITECTURE.md) — 11.0KB / 2026-01-18T19:25:57.464473
-- [docs/03_DEVELOPMENT.md](docs/03_DEVELOPMENT.md) — 14.8KB / 2026-01-18T19:25:57.464473
-- [docs/04_TOKENS.md](docs/04_TOKENS.md) — 12.7KB / 2026-01-18T19:25:57.464473
-- [docs/05_GOVERNANCE.md](docs/05_GOVERNANCE.md) — 13.8KB / 2026-01-18T19:25:57.464473
-- [docs/06_DEFI.md](docs/06_DEFI.md) — 12.1KB / 2026-01-18T19:25:57.465473
-- [docs/07_SECURITY.md](docs/07_SECURITY.md) — 12.5KB / 2026-01-18T19:25:57.465473
-- [docs/08_API_REFERENCE.md](docs/08_API_REFERENCE.md) — 15.7KB / 2026-01-18T19:25:57.465473
-- [docs/09_DEPLOYMENT.md](docs/09_DEPLOYMENT.md) — 11.9KB / 2026-01-18T19:25:57.465473
-- [docs/10_SCRIPTS.md](docs/10_SCRIPTS.md) — 13.1KB / 2026-01-18T19:25:57.465473
-- [docs/11_TROUBLESHOOTING.md](docs/11_TROUBLESHOOTING.md) — 15.2KB / 2026-01-18T19:25:57.465473
-- [docs/ADAM_INTEGRATION_GUIDE.md](docs/ADAM_INTEGRATION_GUIDE.md) — 12.8KB / 2026-01-18T19:25:57.465473
-- [docs/AI_ATTESTATION_SERVICE.md](docs/AI_ATTESTATION_SERVICE.md) — 11.9KB / 2026-01-18T19:25:57.465473
-- [docs/archive/README.md](docs/archive/README.md) — 350.0B / 2026-01-18T19:25:57.465473
-- [docs/archive/README_legacy_full.md](docs/archive/README_legacy_full.md) — 11.6KB / 2026-01-18T19:25:57.466473
-- [docs/arcx-v2-enhanced-features.md](docs/arcx-v2-enhanced-features.md) — 5.7KB / 2026-01-18T19:25:57.466473
-- [docs/assets/images/SBT_bg.jpeg](docs/assets/images/SBT_bg.jpeg) — 85.9KB / 2026-01-18T19:25:57.466473
-- [docs/assets/images/system_diagram20250830.drawio](docs/assets/images/system_diagram20250830.drawio) — 46.0KB / 2026-01-18T19:25:57.466473
-- [docs/assets/images/system_overview.mermaid](docs/assets/images/system_overview.mermaid) — 6.6KB / 2026-01-18T19:25:57.466473
-- [docs/assets/index-CXsZFpx3.js](docs/assets/index-CXsZFpx3.js) — 549.2KB / 2026-01-18T19:25:57.469473
-- [docs/assets/lod (1).fbx](docs/assets/lod (1).fbx) — 2.1MB / 2026-01-18T19:25:57.481473
-- [docs/assets/lod (2).fbx](docs/assets/lod (2).fbx) — 2.1MB / 2026-01-18T19:25:57.483473
-- [docs/assets/lod (3).fbx](docs/assets/lod (3).fbx) — 2.1MB / 2026-01-18T19:25:57.485473
-- [docs/assets/lod.fbx](docs/assets/lod.fbx) — 2.1MB / 2026-01-18T19:25:57.487473
-- [docs/assets/logos/arcx_logo.png](docs/assets/logos/arcx_logo.png) — 1.4MB / 2026-01-18T19:25:57.489473
-- [docs/assets/logos/arcx_logo.svg](docs/assets/logos/arcx_logo.svg) — 1.2MB / 2026-01-18T19:25:57.494473
-- [docs/assets/logos/av-black-logo-removebg-preview.png](docs/assets/logos/av-black-logo-removebg-preview.png) — 28.0KB / 2026-01-18T19:25:57.494473
-- [docs/assets/logos/av-white-logo-removebg-preview.png](docs/assets/logos/av-white-logo-removebg-preview.png) — 33.1KB / 2026-01-18T19:25:57.495473
-- [docs/assets/logos/base-logo.png](docs/assets/logos/base-logo.png) — 2.2KB / 2026-01-18T19:25:57.495473
-- [docs/community_message.md](docs/community_message.md) — 5.9KB / 2026-01-18T19:25:57.495473
-- [docs/diagrams/arc.png](docs/diagrams/arc.png) — 198.8KB / 2026-01-18T19:25:57.496473
-- [docs/diagrams/arc_map.md](docs/diagrams/arc_map.md) — 7.1KB / 2026-01-18T19:25:57.496473
-- [docs/diagrams/enerygy_cap.md](docs/diagrams/enerygy_cap.md) — 3.9KB / 2026-01-18T19:25:57.496473
-- [docs/diagrams/layers.md](docs/diagrams/layers.md) — 2.1KB / 2026-01-18T19:25:57.496473
-- [docs/diagrams/lifecycle.md](docs/diagrams/lifecycle.md) — 1.9KB / 2026-01-18T19:25:57.496473
-- [docs/environment/CODE_OF_CONDUCT.md](docs/environment/CODE_OF_CONDUCT.md) — 6.2KB / 2026-01-18T19:25:57.496473
-- [docs/environment/CONTRIBUTING.md](docs/environment/CONTRIBUTING.md) — 11.9KB / 2026-01-18T19:25:57.496473
-- [docs/environment/DEPLOYMENT_README.md](docs/environment/DEPLOYMENT_README.md) — 5.8KB / 2026-01-18T19:25:57.496473
-- [docs/environment/ENVIRONMENT_SETUP.md](docs/environment/ENVIRONMENT_SETUP.md) — 5.4KB / 2026-01-18T19:25:57.496473
-- [docs/environment/README.md](docs/environment/README.md) — 1.1KB / 2026-01-18T19:25:57.496473
-- [docs/environment/SBT_TOKENS_DEPLOYMENT_README.md](docs/environment/SBT_TOKENS_DEPLOYMENT_README.md) — 4.9KB / 2026-01-18T19:25:57.496473
-- [docs/governance/assets/arcx_lp_nft.mp4](docs/governance/assets/arcx_lp_nft.mp4) — 353.2KB / 2026-01-18T19:25:57.498473
-- [docs/governance/assets/lod (1).fbx](docs/governance/assets/lod (1).fbx) — 2.1MB / 2026-01-18T19:25:57.500473
-- [docs/governance/assets/lod (2).fbx](docs/governance/assets/lod (2).fbx) — 2.1MB / 2026-01-18T19:25:57.501473
-- [docs/governance/assets/lod (3).fbx](docs/governance/assets/lod (3).fbx) — 2.1MB / 2026-01-18T19:25:57.503473
-- [docs/governance/assets/lod.fbx](docs/governance/assets/lod.fbx) — 2.1MB / 2026-01-18T19:25:57.505473
-- [docs/governance/deployment_plan.md](docs/governance/deployment_plan.md) — 828.0B / 2026-01-18T19:25:57.505473
-- [docs/governance/energy_cap.md](docs/governance/energy_cap.md) — 2.3KB / 2026-01-18T19:25:57.505473
-- [docs/governance/governance_model.md](docs/governance/governance_model.md) — 10.1KB / 2026-01-18T19:25:57.505473
-- [docs/governance/whitepaper-adam.md](docs/governance/whitepaper-adam.md) — 12.0KB / 2026-01-18T19:25:57.505473
-- [docs/governance/whitepaper-SBT.md](docs/governance/whitepaper-SBT.md) — 12.5KB / 2026-01-18T19:25:57.505473
-- [docs/html/airdrop_interface.html](docs/html/airdrop_interface.html) — 10.1KB / 2026-01-18T19:25:57.505473
-- [docs/html/artifact_development_engine.html](docs/html/artifact_development_engine.html) — 22.4KB / 2026-01-18T19:25:57.505473
-- [docs/html/auction_interface.html](docs/html/auction_interface.html) — 8.0KB / 2026-01-18T19:25:57.505473
-- [docs/html/bridge.html](docs/html/bridge.html) — 31.1KB / 2026-01-18T19:25:57.506473
-- [docs/html/contract_deployment_ide.html](docs/html/contract_deployment_ide.html) — 30.0KB / 2026-01-18T19:25:57.506473
-- [docs/html/documentation.html](docs/html/documentation.html) — 24.1KB / 2026-01-18T19:25:57.506473
-- [docs/html/index.html](docs/html/index.html) — 21.4KB / 2026-01-18T19:25:57.506473
-- [docs/html/index_horizontal.html](docs/html/index_horizontal.html) — 72.5KB / 2026-01-18T19:25:57.507473
-- [docs/html/transparency.html](docs/html/transparency.html) — 24.5KB / 2026-01-18T19:25:57.507473
-- [docs/html/whitepaper.html](docs/html/whitepaper.html) — 7.8KB / 2026-01-18T19:25:57.507473
-- [docs/real_world_assets.md](docs/real_world_assets.md) — 12.8KB / 2026-01-18T19:25:57.507473
-- [docs/research/00_START_HERE.md](docs/research/00_START_HERE.md) — 24.9KB / 2026-01-18T19:25:57.507473
-- [docs/research/01_ECOSYSTEM.md](docs/research/01_ECOSYSTEM.md) — 37.1KB / 2026-01-18T19:25:57.508473
-- [docs/research/02_GOVERNANCE.md](docs/research/02_GOVERNANCE.md) — 49.3KB / 2026-01-18T19:25:57.508473
-- [docs/research/03_ATTRIBUTES.md](docs/research/03_ATTRIBUTES.md) — 54.8KB / 2026-01-18T19:25:57.508473
-- [docs/research/04_GENESIS.md](docs/research/04_GENESIS.md) — 115.7KB / 2026-01-18T19:25:57.509473
-- [docs/research/05_REGISTRY.md](docs/research/05_REGISTRY.md) — 102.9KB / 2026-01-18T19:25:57.509473
-- [docs/research/06_IDENTITY.md](docs/research/06_IDENTITY.md) — 55.7KB / 2026-01-18T19:25:57.509473
-- [docs/research/07_MODELS.md](docs/research/07_MODELS.md) — 60.9KB / 2026-01-18T19:25:57.510473
-- [docs/research/08_JOBS.md](docs/research/08_JOBS.md) — 65.9KB / 2026-01-18T19:25:57.510473
-- [docs/research/misc/banking_2.md](docs/research/misc/banking_2.md) — 48.8KB / 2026-01-18T19:25:57.510473
-- [docs/research/misc/crypt_vs_banking.md](docs/research/misc/crypt_vs_banking.md) — 68.4KB / 2026-01-18T19:25:57.511473
-- [docs/research/misc/dev_thesis.md](docs/research/misc/dev_thesis.md) — 8.6KB / 2026-01-18T19:25:57.511473
-- [docs/research/misc/gmi.md](docs/research/misc/gmi.md) — 42.7KB / 2026-01-18T19:25:57.511473
-- [docs/research/misc/imf_international_sc.md](docs/research/misc/imf_international_sc.md) — 101.4KB / 2026-01-18T19:25:57.511473
-- [docs/research/misc/index.md](docs/research/misc/index.md) — 2.0KB / 2026-01-18T19:25:57.511473
-- [docs/research/misc/new_money.md](docs/research/misc/new_money.md) — 27.1KB / 2026-01-18T19:25:57.512473
-- [docs/research/misc/sc_revolution.md](docs/research/misc/sc_revolution.md) — 38.4KB / 2026-01-18T19:25:57.512473
-- [docs/research/misc/stablecoins.md](docs/research/misc/stablecoins.md) — 226.0KB / 2026-01-18T19:25:57.513473
-- [docs/research/misc/tokenization.md](docs/research/misc/tokenization.md) — 6.7KB / 2026-01-18T19:25:57.513473
-- [docs/research/misc/tokenization_infra.jpg](docs/research/misc/tokenization_infra.jpg) — 21.6KB / 2026-01-18T19:25:57.513473
-- [docs/SECURITY.md](docs/SECURITY.md) — 3.2KB / 2026-01-18T19:25:57.465473
-- [docs/tokenlists/arcx.tokenlist.json](docs/tokenlists/arcx.tokenlist.json) — 905.0B / 2026-01-18T19:25:57.513473
-- [docs/tokenlists/README.md](docs/tokenlists/README.md) — 947.0B / 2026-01-18T19:25:57.513473
+- [docs/00_INDEX.md](docs/00_INDEX.md) — 7.9KB / 2026-01-30T23:10:57.219056
+- [docs/01_INTRODUCTION.md](docs/01_INTRODUCTION.md) — 3.1KB / 2026-01-30T23:10:57.219056
+- [docs/02_ARCHITECTURE.md](docs/02_ARCHITECTURE.md) — 11.0KB / 2026-01-30T23:10:57.219056
+- [docs/03_DEVELOPMENT.md](docs/03_DEVELOPMENT.md) — 14.8KB / 2026-01-30T23:10:57.219056
+- [docs/04_TOKENS.md](docs/04_TOKENS.md) — 12.7KB / 2026-01-30T23:10:57.219056
+- [docs/05_GOVERNANCE.md](docs/05_GOVERNANCE.md) — 13.8KB / 2026-01-30T23:10:57.219056
+- [docs/06_DEFI.md](docs/06_DEFI.md) — 12.1KB / 2026-01-30T23:10:57.219056
+- [docs/07_SECURITY.md](docs/07_SECURITY.md) — 12.5KB / 2026-01-30T23:10:57.219056
+- [docs/08_API_REFERENCE.md](docs/08_API_REFERENCE.md) — 15.7KB / 2026-01-30T23:10:57.219056
+- [docs/09_DEPLOYMENT.md](docs/09_DEPLOYMENT.md) — 11.9KB / 2026-01-30T23:10:57.219056
+- [docs/10_SCRIPTS.md](docs/10_SCRIPTS.md) — 13.1KB / 2026-01-30T23:10:57.219056
+- [docs/11_TROUBLESHOOTING.md](docs/11_TROUBLESHOOTING.md) — 15.2KB / 2026-01-30T23:10:57.220056
+- [docs/ADAM_INTEGRATION_GUIDE.md](docs/ADAM_INTEGRATION_GUIDE.md) — 12.8KB / 2026-01-30T23:10:57.220056
+- [docs/AI_ATTESTATION_SERVICE.md](docs/AI_ATTESTATION_SERVICE.md) — 11.9KB / 2026-01-30T23:10:57.220056
+- [docs/archive/README.md](docs/archive/README.md) — 350.0B / 2026-01-30T23:10:57.220056
+- [docs/archive/README_legacy_full.md](docs/archive/README_legacy_full.md) — 11.6KB / 2026-01-30T23:10:57.220056
+- [docs/arcx-v2-enhanced-features.md](docs/arcx-v2-enhanced-features.md) — 5.7KB / 2026-01-30T23:10:57.220056
+- [docs/assets/images/SBT_bg.jpeg](docs/assets/images/SBT_bg.jpeg) — 85.9KB / 2026-01-30T23:10:57.221056
+- [docs/assets/images/system_diagram20250830.drawio](docs/assets/images/system_diagram20250830.drawio) — 46.0KB / 2026-01-30T23:10:57.221056
+- [docs/assets/images/system_overview.mermaid](docs/assets/images/system_overview.mermaid) — 6.6KB / 2026-01-30T23:10:57.221056
+- [docs/assets/index-CXsZFpx3.js](docs/assets/index-CXsZFpx3.js) — 549.2KB / 2026-01-30T23:10:57.223056
+- [docs/assets/lod (1).fbx](docs/assets/lod (1).fbx) — 2.1MB / 2026-01-30T23:10:57.235056
+- [docs/assets/lod (2).fbx](docs/assets/lod (2).fbx) — 2.1MB / 2026-01-30T23:10:57.238056
+- [docs/assets/lod (3).fbx](docs/assets/lod (3).fbx) — 2.1MB / 2026-01-30T23:10:57.240056
+- [docs/assets/lod.fbx](docs/assets/lod.fbx) — 2.1MB / 2026-01-30T23:10:57.242056
+- [docs/assets/logos/arcx_logo.png](docs/assets/logos/arcx_logo.png) — 1.4MB / 2026-01-30T23:10:57.244056
+- [docs/assets/logos/arcx_logo.svg](docs/assets/logos/arcx_logo.svg) — 1.2MB / 2026-01-30T23:10:57.249056
+- [docs/assets/logos/av-black-logo-removebg-preview.png](docs/assets/logos/av-black-logo-removebg-preview.png) — 28.0KB / 2026-01-30T23:10:57.249056
+- [docs/assets/logos/av-white-logo-removebg-preview.png](docs/assets/logos/av-white-logo-removebg-preview.png) — 33.1KB / 2026-01-30T23:10:57.250056
+- [docs/assets/logos/base-logo.png](docs/assets/logos/base-logo.png) — 2.2KB / 2026-01-30T23:10:57.250056
+- [docs/community_message.md](docs/community_message.md) — 5.9KB / 2026-01-30T23:10:57.250056
+- [docs/diagrams/arc.png](docs/diagrams/arc.png) — 198.8KB / 2026-01-30T23:10:57.251056
+- [docs/diagrams/arc_map.md](docs/diagrams/arc_map.md) — 7.1KB / 2026-01-30T23:10:57.251056
+- [docs/diagrams/enerygy_cap.md](docs/diagrams/enerygy_cap.md) — 3.9KB / 2026-01-30T23:10:57.251056
+- [docs/diagrams/layers.md](docs/diagrams/layers.md) — 2.1KB / 2026-01-30T23:10:57.251056
+- [docs/diagrams/lifecycle.md](docs/diagrams/lifecycle.md) — 1.9KB / 2026-01-30T23:10:57.251056
+- [docs/environment/CODE_OF_CONDUCT.md](docs/environment/CODE_OF_CONDUCT.md) — 6.2KB / 2026-01-30T23:10:57.251056
+- [docs/environment/CONTRIBUTING.md](docs/environment/CONTRIBUTING.md) — 11.9KB / 2026-01-30T23:10:57.251056
+- [docs/environment/DEPLOYMENT_README.md](docs/environment/DEPLOYMENT_README.md) — 5.8KB / 2026-01-30T23:10:57.251056
+- [docs/environment/ENVIRONMENT_SETUP.md](docs/environment/ENVIRONMENT_SETUP.md) — 5.4KB / 2026-01-30T23:10:57.251056
+- [docs/environment/README.md](docs/environment/README.md) — 1.1KB / 2026-01-30T23:10:57.251056
+- [docs/environment/SBT_TOKENS_DEPLOYMENT_README.md](docs/environment/SBT_TOKENS_DEPLOYMENT_README.md) — 4.9KB / 2026-01-30T23:10:57.251056
+- [docs/governance/assets/arcx_lp_nft.mp4](docs/governance/assets/arcx_lp_nft.mp4) — 353.2KB / 2026-01-30T23:10:57.253056
+- [docs/governance/assets/lod (1).fbx](docs/governance/assets/lod (1).fbx) — 2.1MB / 2026-01-30T23:10:57.255056
+- [docs/governance/assets/lod (2).fbx](docs/governance/assets/lod (2).fbx) — 2.1MB / 2026-01-30T23:10:57.256056
+- [docs/governance/assets/lod (3).fbx](docs/governance/assets/lod (3).fbx) — 2.1MB / 2026-01-30T23:10:57.258056
+- [docs/governance/assets/lod.fbx](docs/governance/assets/lod.fbx) — 2.1MB / 2026-01-30T23:10:57.260056
+- [docs/governance/deployment_plan.md](docs/governance/deployment_plan.md) — 828.0B / 2026-01-30T23:10:57.260056
+- [docs/governance/energy_cap.md](docs/governance/energy_cap.md) — 2.3KB / 2026-01-30T23:10:57.260056
+- [docs/governance/governance_model.md](docs/governance/governance_model.md) — 10.1KB / 2026-01-30T23:10:57.260056
+- [docs/governance/whitepaper-adam.md](docs/governance/whitepaper-adam.md) — 12.0KB / 2026-01-30T23:10:57.260056
+- [docs/governance/whitepaper-SBT.md](docs/governance/whitepaper-SBT.md) — 12.5KB / 2026-01-30T23:10:57.260056
+- [docs/html/airdrop_interface.html](docs/html/airdrop_interface.html) — 10.1KB / 2026-01-30T23:10:57.260056
+- [docs/html/artifact_development_engine.html](docs/html/artifact_development_engine.html) — 22.4KB / 2026-01-30T23:10:57.260056
+- [docs/html/auction_interface.html](docs/html/auction_interface.html) — 8.0KB / 2026-01-30T23:10:57.260056
+- [docs/html/bridge.html](docs/html/bridge.html) — 31.1KB / 2026-01-30T23:10:57.260056
+- [docs/html/contract_deployment_ide.html](docs/html/contract_deployment_ide.html) — 30.0KB / 2026-01-30T23:10:57.261056
+- [docs/html/documentation.html](docs/html/documentation.html) — 24.1KB / 2026-01-30T23:10:57.261056
+- [docs/html/index.html](docs/html/index.html) — 21.4KB / 2026-01-30T23:10:57.261056
+- [docs/html/index_horizontal.html](docs/html/index_horizontal.html) — 72.5KB / 2026-01-30T23:10:57.262057
+- [docs/html/transparency.html](docs/html/transparency.html) — 24.5KB / 2026-01-30T23:10:57.262057
+- [docs/html/whitepaper.html](docs/html/whitepaper.html) — 7.8KB / 2026-01-30T23:10:57.262057
+- [docs/real_world_assets.md](docs/real_world_assets.md) — 12.8KB / 2026-01-30T23:10:57.262057
+- [docs/research/00_START_HERE.md](docs/research/00_START_HERE.md) — 24.9KB / 2026-01-30T23:10:57.262057
+- [docs/research/01_ECOSYSTEM.md](docs/research/01_ECOSYSTEM.md) — 37.1KB / 2026-01-30T23:10:57.262057
+- [docs/research/02_GOVERNANCE.md](docs/research/02_GOVERNANCE.md) — 49.3KB / 2026-01-30T23:10:57.263057
+- [docs/research/03_ATTRIBUTES.md](docs/research/03_ATTRIBUTES.md) — 54.8KB / 2026-01-30T23:10:57.263057
+- [docs/research/04_GENESIS.md](docs/research/04_GENESIS.md) — 115.7KB / 2026-01-30T23:10:57.263057
+- [docs/research/05_REGISTRY.md](docs/research/05_REGISTRY.md) — 102.9KB / 2026-01-30T23:10:57.264056
+- [docs/research/06_IDENTITY.md](docs/research/06_IDENTITY.md) — 55.7KB / 2026-01-30T23:10:57.264056
+- [docs/research/07_MODELS.md](docs/research/07_MODELS.md) — 60.9KB / 2026-01-30T23:10:57.265057
+- [docs/research/08_JOBS.md](docs/research/08_JOBS.md) — 65.9KB / 2026-01-30T23:10:57.265057
+- [docs/research/misc/banking_2.md](docs/research/misc/banking_2.md) — 48.8KB / 2026-01-30T23:10:57.265057
+- [docs/research/misc/crypt_vs_banking.md](docs/research/misc/crypt_vs_banking.md) — 68.4KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/dev_thesis.md](docs/research/misc/dev_thesis.md) — 8.6KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/gmi.md](docs/research/misc/gmi.md) — 42.7KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/imf_international_sc.md](docs/research/misc/imf_international_sc.md) — 101.4KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/index.md](docs/research/misc/index.md) — 2.0KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/new_money.md](docs/research/misc/new_money.md) — 27.1KB / 2026-01-30T23:10:57.266057
+- [docs/research/misc/sc_revolution.md](docs/research/misc/sc_revolution.md) — 38.4KB / 2026-01-30T23:10:57.267057
+- [docs/research/misc/stablecoins.md](docs/research/misc/stablecoins.md) — 226.0KB / 2026-01-30T23:10:57.268057
+- [docs/research/misc/tokenization.md](docs/research/misc/tokenization.md) — 6.7KB / 2026-01-30T23:10:57.268057
+- [docs/research/misc/tokenization_infra.jpg](docs/research/misc/tokenization_infra.jpg) — 21.6KB / 2026-01-30T23:10:57.268057
+- [docs/SECURITY.md](docs/SECURITY.md) — 3.2KB / 2026-01-30T23:10:57.220056
+- [docs/tokenlists/arcx.tokenlist.json](docs/tokenlists/arcx.tokenlist.json) — 905.0B / 2026-01-30T23:10:57.268057
+- [docs/tokenlists/README.md](docs/tokenlists/README.md) — 947.0B / 2026-01-30T23:10:57.268057
 ### echidna.yaml
 
-- [echidna.yaml](echidna.yaml) — 1.1KB / 2026-01-18T19:25:57.513473
+- [echidna.yaml](echidna.yaml) — 1.1KB / 2026-01-30T23:10:57.268057
 ### eslint.config.js
 
-- [eslint.config.js](eslint.config.js) — 1.6KB / 2026-01-18T19:25:57.513473
+- [eslint.config.js](eslint.config.js) — 1.6KB / 2026-01-30T23:10:57.268057
 ### foundry-scripts
 
-- [foundry-scripts/DeployGenesis.s.sol](foundry-scripts/DeployGenesis.s.sol) — 5.3KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/DeployGenesisV2.s.sol](foundry-scripts/DeployGenesisV2.s.sol) — 3.0KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/DeployProtocolGenesis.s.sol](foundry-scripts/DeployProtocolGenesis.s.sol) — 9.0KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/Genesis.t.sol](foundry-scripts/Genesis.t.sol) — 5.0KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/L2GenesisVerifier.t.sol](foundry-scripts/L2GenesisVerifier.t.sol) — 4.9KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/ProtocolGenesis.t.sol](foundry-scripts/ProtocolGenesis.t.sol) — 17.4KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/Registry.t.sol](foundry-scripts/Registry.t.sol) — 5.8KB / 2026-01-18T19:25:57.513473
-- [foundry-scripts/SBT.t.sol](foundry-scripts/SBT.t.sol) — 6.3KB / 2026-01-18T19:25:57.514473
+- [foundry-scripts/DeployGenesis.s.sol](foundry-scripts/DeployGenesis.s.sol) — 5.3KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/DeployGenesisV2.s.sol](foundry-scripts/DeployGenesisV2.s.sol) — 3.0KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/DeployProtocolGenesis.s.sol](foundry-scripts/DeployProtocolGenesis.s.sol) — 9.0KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/Genesis.t.sol](foundry-scripts/Genesis.t.sol) — 5.0KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/L2GenesisVerifier.t.sol](foundry-scripts/L2GenesisVerifier.t.sol) — 4.9KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/ProtocolGenesis.t.sol](foundry-scripts/ProtocolGenesis.t.sol) — 17.4KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/Registry.t.sol](foundry-scripts/Registry.t.sol) — 5.8KB / 2026-01-30T23:10:57.268057
+- [foundry-scripts/SBT.t.sol](foundry-scripts/SBT.t.sol) — 6.3KB / 2026-01-30T23:10:57.268057
 ### ganache-db
 
-- [ganache-db/CURRENT](ganache-db/CURRENT) — 16.0B / 2026-01-18T19:25:57.514473
-- [ganache-db/LOCK](ganache-db/LOCK) — 0.0B / 2026-01-18T19:25:57.514473
-- [ganache-db/LOG](ganache-db/LOG) — 46.0B / 2026-01-18T19:25:57.514473
-- [ganache-db/MANIFEST-000002](ganache-db/MANIFEST-000002) — 50.0B / 2026-01-18T19:25:57.514473
+- [ganache-db/CURRENT](ganache-db/CURRENT) — 16.0B / 2026-01-30T23:10:57.269057
+- [ganache-db/LOCK](ganache-db/LOCK) — 0.0B / 2026-01-30T23:10:57.269057
+- [ganache-db/LOG](ganache-db/LOG) — 46.0B / 2026-01-30T23:10:57.269057
+- [ganache-db/MANIFEST-000002](ganache-db/MANIFEST-000002) — 50.0B / 2026-01-30T23:10:57.269057
 ### gas-report.txt
 
-- [gas-report.txt](gas-report.txt) — 3.6KB / 2026-01-18T19:25:57.514473
+- [gas-report.txt](gas-report.txt) — 3.6KB / 2026-01-30T23:10:57.269057
 ### gas-reports
 
-- [gas-reports/gas-analysis-1756553019749.json](gas-reports/gas-analysis-1756553019749.json) — 20.7KB / 2026-01-18T19:25:57.514473
-- [gas-reports/gas-analysis-1756553056888.json](gas-reports/gas-analysis-1756553056888.json) — 20.7KB / 2026-01-18T19:25:57.514473
+- [gas-reports/gas-analysis-1756553019749.json](gas-reports/gas-analysis-1756553019749.json) — 20.7KB / 2026-01-30T23:10:57.269057
+- [gas-reports/gas-analysis-1756553056888.json](gas-reports/gas-analysis-1756553056888.json) — 20.7KB / 2026-01-30T23:10:57.269057
 ### hardhat.config.ts
 
-- [hardhat.config.ts](hardhat.config.ts) — 5.6KB / 2026-01-18T19:25:57.514473
+- [hardhat.config.ts](hardhat.config.ts) — 5.6KB / 2026-01-30T23:10:57.269057
 ### js
 
-- [js/airdrop.js](js/airdrop.js) — 7.6KB / 2026-01-18T19:25:57.514473
-- [js/auction-gh-pages.js](js/auction-gh-pages.js) — 17.3KB / 2026-01-18T19:25:57.514473
-- [js/auction.js](js/auction.js) — 14.0KB / 2026-01-18T19:25:57.514473
+- [js/airdrop.js](js/airdrop.js) — 7.6KB / 2026-01-30T23:10:57.269057
+- [js/auction-gh-pages.js](js/auction-gh-pages.js) — 17.3KB / 2026-01-30T23:10:57.269057
+- [js/auction.js](js/auction.js) — 14.0KB / 2026-01-30T23:10:57.269057
 ### LICENSE
 
-- [LICENSE](LICENSE) — 2.9KB / 2026-01-18T19:25:57.449473
+- [LICENSE](LICENSE) — 2.9KB / 2026-01-30T23:10:57.204055
 ### OVERVIEW.md
 
-- [OVERVIEW.md](OVERVIEW.md) — 47.5KB / 2026-01-18T19:25:57.449473
+- [OVERVIEW.md](OVERVIEW.md) — 47.5KB / 2026-01-30T23:10:57.204055
 ### package.json
 
-- [package.json](package.json) — 8.0KB / 2026-01-18T19:25:57.514473
+- [package.json](package.json) — 8.0KB / 2026-01-30T23:10:57.269057
 ### README.md
 
-- [README.md](README.md) — 13.4KB / 2026-01-18T19:25:57.450473
+- [README.md](README.md) — 13.4KB / 2026-01-30T23:10:57.204055
 ### run-audit-and-append.ps1
 
-- [run-audit-and-append.ps1](run-audit-and-append.ps1) — 3.0KB / 2026-01-18T19:25:57.515473
+- [run-audit-and-append.ps1](run-audit-and-append.ps1) — 3.0KB / 2026-01-30T23:10:57.270057
 ### scripts
 
-- [scripts/airdrop-manager.ts](scripts/airdrop-manager.ts) — 6.9KB / 2026-01-18T19:25:57.515473
-- [scripts/check-deployer-nfts-standalone.ts](scripts/check-deployer-nfts-standalone.ts) — 3.0KB / 2026-01-18T19:25:57.515473
-- [scripts/check-deployer-nfts.ts](scripts/check-deployer-nfts.ts) — 2.8KB / 2026-01-18T19:25:57.515473
-- [scripts/check-lp-compat-fixed.ts](scripts/check-lp-compat-fixed.ts) — 1.7KB / 2026-01-18T19:25:57.515473
-- [scripts/check-specific-positions.ts](scripts/check-specific-positions.ts) — 1.9KB / 2026-01-18T19:25:57.515473
-- [scripts/check-uniswap-positions.ts](scripts/check-uniswap-positions.ts) — 3.5KB / 2026-01-18T19:25:57.515473
-- [scripts/config.ts](scripts/config.ts) — 8.6KB / 2026-01-18T19:25:57.515473
-- [scripts/deploy-test-ecosystem.ts](scripts/deploy-test-ecosystem.ts) — 19.3KB / 2026-01-18T19:25:57.515473
-- [scripts/deploy_adam.ts](scripts/deploy_adam.ts) — 10.0KB / 2026-01-18T19:25:57.515473
-- [scripts/deploy_defi.ts](scripts/deploy_defi.ts) — 2.5KB / 2026-01-18T19:25:57.515473
-- [scripts/deployment-manager.ts](scripts/deployment-manager.ts) — 5.7KB / 2026-01-18T19:25:57.515473
-- [scripts/ecosystem-manager.ts](scripts/ecosystem-manager.ts) — 8.5KB / 2026-01-18T19:25:57.515473
-- [scripts/lp-manager.ts](scripts/lp-manager.ts) — 6.7KB / 2026-01-18T19:25:57.515473
-- [scripts/monitor.ts](scripts/monitor.ts) — 8.3KB / 2026-01-18T19:25:57.516473
-- [scripts/README.md](scripts/README.md) — 10.2KB / 2026-01-18T19:25:57.515473
-- [scripts/setup_adam_policies.ts](scripts/setup_adam_policies.ts) — 4.1KB / 2026-01-18T19:25:57.516473
-- [scripts/shared/constants.ts](scripts/shared/constants.ts) — 3.6KB / 2026-01-18T19:25:57.516473
-- [scripts/shared/utils.ts](scripts/shared/utils.ts) — 9.7KB / 2026-01-18T19:25:57.516473
-- [scripts/transfer-positions.ts](scripts/transfer-positions.ts) — 1.7KB / 2026-01-18T19:25:57.516473
-- [scripts/txdata/generate-vesting-txdata.ts](scripts/txdata/generate-vesting-txdata.ts) — 4.8KB / 2026-01-18T19:25:57.516473
-- [scripts/vesting-manager.ts](scripts/vesting-manager.ts) — 9.1KB / 2026-01-18T19:25:57.516473
+- [scripts/airdrop-manager.ts](scripts/airdrop-manager.ts) — 6.9KB / 2026-01-30T23:10:57.270057
+- [scripts/check-deployer-nfts-standalone.ts](scripts/check-deployer-nfts-standalone.ts) — 3.0KB / 2026-01-30T23:10:57.270057
+- [scripts/check-deployer-nfts.ts](scripts/check-deployer-nfts.ts) — 2.8KB / 2026-01-30T23:10:57.270057
+- [scripts/check-lp-compat-fixed.ts](scripts/check-lp-compat-fixed.ts) — 1.7KB / 2026-01-30T23:10:57.270057
+- [scripts/check-specific-positions.ts](scripts/check-specific-positions.ts) — 1.9KB / 2026-01-30T23:10:57.270057
+- [scripts/check-uniswap-positions.ts](scripts/check-uniswap-positions.ts) — 3.5KB / 2026-01-30T23:10:57.270057
+- [scripts/config.ts](scripts/config.ts) — 8.6KB / 2026-01-30T23:10:57.270057
+- [scripts/deploy-test-ecosystem.ts](scripts/deploy-test-ecosystem.ts) — 19.3KB / 2026-01-30T23:10:57.270057
+- [scripts/deploy_adam.ts](scripts/deploy_adam.ts) — 10.0KB / 2026-01-30T23:10:57.270057
+- [scripts/deploy_defi.ts](scripts/deploy_defi.ts) — 2.5KB / 2026-01-30T23:10:57.270057
+- [scripts/deployment-manager.ts](scripts/deployment-manager.ts) — 5.7KB / 2026-01-30T23:10:57.270057
+- [scripts/ecosystem-manager.ts](scripts/ecosystem-manager.ts) — 8.5KB / 2026-01-30T23:10:57.270057
+- [scripts/lp-manager.ts](scripts/lp-manager.ts) — 6.7KB / 2026-01-30T23:10:57.271057
+- [scripts/monitor.ts](scripts/monitor.ts) — 8.3KB / 2026-01-30T23:10:57.271057
+- [scripts/README.md](scripts/README.md) — 10.2KB / 2026-01-30T23:10:57.270057
+- [scripts/setup_adam_policies.ts](scripts/setup_adam_policies.ts) — 4.1KB / 2026-01-30T23:10:57.271057
+- [scripts/shared/constants.ts](scripts/shared/constants.ts) — 3.6KB / 2026-01-30T23:10:57.271057
+- [scripts/shared/utils.ts](scripts/shared/utils.ts) — 9.7KB / 2026-01-30T23:10:57.271057
+- [scripts/transfer-positions.ts](scripts/transfer-positions.ts) — 1.7KB / 2026-01-30T23:10:57.271057
+- [scripts/txdata/generate-vesting-txdata.ts](scripts/txdata/generate-vesting-txdata.ts) — 4.8KB / 2026-01-30T23:10:57.271057
+- [scripts/vesting-manager.ts](scripts/vesting-manager.ts) — 9.1KB / 2026-01-30T23:10:57.271057
 ### src
 
-- [src/components/arc_roadmap.html](src/components/arc_roadmap.html) — 9.0KB / 2026-01-18T19:25:57.516473
-- [src/components/roadmap.tsx](src/components/roadmap.tsx) — 22.6KB / 2026-01-18T19:25:57.516473
-- [src/components/votingsystem.tsx](src/components/votingsystem.tsx) — 26.8KB / 2026-01-18T19:25:57.516473
+- [src/components/arc_roadmap.html](src/components/arc_roadmap.html) — 9.0KB / 2026-01-30T23:10:57.271057
+- [src/components/roadmap.tsx](src/components/roadmap.tsx) — 22.6KB / 2026-01-30T23:10:57.271057
+- [src/components/votingsystem.tsx](src/components/votingsystem.tsx) — 26.8KB / 2026-01-30T23:10:57.271057
 ### SYSTEM_MAP.md
 
-- [SYSTEM_MAP.md](SYSTEM_MAP.md) — 32.6KB / 2026-01-18T19:25:57.450473
+- [SYSTEM_MAP.md](SYSTEM_MAP.md) — 32.6KB / 2026-01-30T23:10:57.204055
 ### TERMINAL_UI_DEMO.txt
 
-- [TERMINAL_UI_DEMO.txt](TERMINAL_UI_DEMO.txt) — 16.3KB / 2026-01-18T19:25:57.450473
+- [TERMINAL_UI_DEMO.txt](TERMINAL_UI_DEMO.txt) — 16.3KB / 2026-01-30T23:10:57.204055
 ### tests
 
-- [tests/ARCx.test.ts](tests/ARCx.test.ts) — 2.8KB / 2026-01-18T19:25:57.516473
-- [tests/ARCxDutchAuction.test.ts](tests/ARCxDutchAuction.test.ts) — 2.3KB / 2026-01-18T19:25:57.516473
-- [tests/ARCxMasterVesting.test.ts](tests/ARCxMasterVesting.test.ts) — 17.8KB / 2026-01-18T19:25:57.517473
-- [tests/ARCxSmartAirdrop.test.ts](tests/ARCxSmartAirdrop.test.ts) — 8.1KB / 2026-01-18T19:25:57.517473
-- [tests/ARCxToken.test.ts](tests/ARCxToken.test.ts) — 11.6KB / 2026-01-18T19:25:57.517473
-- [tests/dao/adam/ContextEncoding.test.ts](tests/dao/adam/ContextEncoding.test.ts) — 7.7KB / 2026-01-18T19:25:57.517473
-- [tests/dao/adam/GovernanceLifecycle.integration.test.ts](tests/dao/adam/GovernanceLifecycle.integration.test.ts) — 13.2KB / 2026-01-18T19:25:57.517473
-- [tests/dao/adam/TreasuryLimiter.test.ts](tests/dao/adam/TreasuryLimiter.test.ts) — 6.4KB / 2026-01-18T19:25:57.517473
-- [tests/fuzz/AdamPolicyFuzzTest.sol](tests/fuzz/AdamPolicyFuzzTest.sol) — 11.3KB / 2026-01-18T19:25:57.517473
-- [tests/fuzz/ContractInvariants.t.sol](tests/fuzz/ContractInvariants.t.sol) — 14.5KB / 2026-01-18T19:25:57.517473
-- [tests/governance/TimelockRoles.test.ts](tests/governance/TimelockRoles.test.ts) — 7.0KB / 2026-01-18T19:25:57.517473
-- [tests/integration/integration.test.ts](tests/integration/integration.test.ts) — 14.9KB / 2026-01-18T19:25:57.517473
-- [tests/mocha.opts](tests/mocha.opts) — 140.0B / 2026-01-18T19:25:57.517473
-- [tests/phase1-modules.test.js](tests/phase1-modules.test.js) — 14.3KB / 2026-01-18T19:25:57.517473
-- [tests/security/AdamHostSecurity.test.ts](tests/security/AdamHostSecurity.test.ts) — 12.1KB / 2026-01-18T19:25:57.518473
-- [tests/security/AdamRegistrySecurity.test.ts](tests/security/AdamRegistrySecurity.test.ts) — 14.6KB / 2026-01-18T19:25:57.518473
-- [tests/security/ARCBridgeSecurity.test.ts](tests/security/ARCBridgeSecurity.test.ts) — 10.9KB / 2026-01-18T19:25:57.517473
-- [tests/security/ARCGovernorSecurity.test.ts](tests/security/ARCGovernorSecurity.test.ts) — 10.3KB / 2026-01-18T19:25:57.517473
-- [tests/security/ARCTimelockSecurity.test.ts](tests/security/ARCTimelockSecurity.test.ts) — 8.1KB / 2026-01-18T19:25:57.518473
-- [tests/security/BridgeSecurity.test.ts](tests/security/BridgeSecurity.test.ts) — 3.0KB / 2026-01-18T19:25:57.518473
-- [tests/security/security.test.ts](tests/security/security.test.ts) — 18.9KB / 2026-01-18T19:25:57.518473
-- [tests/security/TokenSecurity.test.ts](tests/security/TokenSecurity.test.ts) — 4.1KB / 2026-01-18T19:25:57.518473
-- [tests/shared/test-helpers.ts](tests/shared/test-helpers.ts) — 6.0KB / 2026-01-18T19:25:57.518473
-- [tests/test_results.md](tests/test_results.md) — 3.9KB / 2026-01-18T19:25:57.518473
+- [tests/ARCx.test.ts](tests/ARCx.test.ts) — 2.8KB / 2026-01-30T23:10:57.271057
+- [tests/ARCxDutchAuction.test.ts](tests/ARCxDutchAuction.test.ts) — 2.3KB / 2026-01-30T23:10:57.272057
+- [tests/ARCxMasterVesting.test.ts](tests/ARCxMasterVesting.test.ts) — 17.8KB / 2026-01-30T23:10:57.272057
+- [tests/ARCxSmartAirdrop.test.ts](tests/ARCxSmartAirdrop.test.ts) — 8.1KB / 2026-01-30T23:10:57.272057
+- [tests/ARCxToken.test.ts](tests/ARCxToken.test.ts) — 11.6KB / 2026-01-30T23:10:57.272057
+- [tests/dao/adam/ContextEncoding.test.ts](tests/dao/adam/ContextEncoding.test.ts) — 7.7KB / 2026-01-30T23:10:57.272057
+- [tests/dao/adam/GovernanceLifecycle.integration.test.ts](tests/dao/adam/GovernanceLifecycle.integration.test.ts) — 13.2KB / 2026-01-30T23:10:57.272057
+- [tests/dao/adam/TreasuryLimiter.test.ts](tests/dao/adam/TreasuryLimiter.test.ts) — 6.4KB / 2026-01-30T23:10:57.272057
+- [tests/fuzz/AdamPolicyFuzzTest.sol](tests/fuzz/AdamPolicyFuzzTest.sol) — 11.3KB / 2026-01-30T23:10:57.272057
+- [tests/fuzz/ContractInvariants.t.sol](tests/fuzz/ContractInvariants.t.sol) — 14.5KB / 2026-01-30T23:10:57.272057
+- [tests/governance/TimelockRoles.test.ts](tests/governance/TimelockRoles.test.ts) — 7.0KB / 2026-01-30T23:10:57.272057
+- [tests/integration/integration.test.ts](tests/integration/integration.test.ts) — 14.9KB / 2026-01-30T23:10:57.272057
+- [tests/mocha.opts](tests/mocha.opts) — 140.0B / 2026-01-30T23:10:57.272057
+- [tests/phase1-modules.test.js](tests/phase1-modules.test.js) — 14.3KB / 2026-01-30T23:10:57.272057
+- [tests/security/AdamHostSecurity.test.ts](tests/security/AdamHostSecurity.test.ts) — 12.1KB / 2026-01-30T23:10:57.273057
+- [tests/security/AdamRegistrySecurity.test.ts](tests/security/AdamRegistrySecurity.test.ts) — 14.6KB / 2026-01-30T23:10:57.273057
+- [tests/security/ARCBridgeSecurity.test.ts](tests/security/ARCBridgeSecurity.test.ts) — 10.9KB / 2026-01-30T23:10:57.273057
+- [tests/security/ARCGovernorSecurity.test.ts](tests/security/ARCGovernorSecurity.test.ts) — 10.3KB / 2026-01-30T23:10:57.273057
+- [tests/security/ARCTimelockSecurity.test.ts](tests/security/ARCTimelockSecurity.test.ts) — 8.1KB / 2026-01-30T23:10:57.273057
+- [tests/security/BridgeSecurity.test.ts](tests/security/BridgeSecurity.test.ts) — 3.0KB / 2026-01-30T23:10:57.273057
+- [tests/security/security.test.ts](tests/security/security.test.ts) — 18.9KB / 2026-01-30T23:10:57.273057
+- [tests/security/TokenSecurity.test.ts](tests/security/TokenSecurity.test.ts) — 4.1KB / 2026-01-30T23:10:57.273057
+- [tests/shared/test-helpers.ts](tests/shared/test-helpers.ts) — 6.0KB / 2026-01-30T23:10:57.273057
+- [tests/test_results.md](tests/test_results.md) — 3.9KB / 2026-01-30T23:10:57.273057
 ### tools
 
-- [tools/code_indexer.py](tools/code_indexer.py) — 7.2KB / 2026-01-18T19:25:57.518473
-- [tools/install_git_hooks.ps1](tools/install_git_hooks.ps1) — 851.0B / 2026-01-18T19:25:57.518473
+- [tools/code_indexer.py](tools/code_indexer.py) — 7.2KB / 2026-01-30T23:10:57.273057
+- [tools/install_git_hooks.ps1](tools/install_git_hooks.ps1) — 851.0B / 2026-01-30T23:10:57.273057
 ### trader.py
 
-- [trader.py](trader.py) — 6.0KB / 2026-01-18T19:25:57.518473
+- [trader.py](trader.py) — 6.0KB / 2026-01-30T23:10:57.273057
 ### tsconfig.json
 
-- [tsconfig.json](tsconfig.json) — 589.0B / 2026-01-18T19:25:57.518473
+- [tsconfig.json](tsconfig.json) — 589.0B / 2026-01-30T23:10:57.273057
 
 ---
 
