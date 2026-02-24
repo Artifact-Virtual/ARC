@@ -39,10 +39,15 @@
 - **Type**: ![Type](https://img.shields.io/badge/Type-ERC20-6c47ff?style=flat-square)
 - **Solidity**: [![Solidity](https://img.shields.io/badge/Solidity-0.8.x-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
 
-### SoulBound NTT (Coming Soon)
-- **Status**: ![Status](https://img.shields.io/badge/Status-Coming%20Soon-546E7A?style=flat-square)
-- **Type**: [![Type](https://img.shields.io/badge/Type-SBT%20(ERC-5192)-795548?style=flat-square)](https://eips.ethereum.org/EIPS/eip-5192)
-- **Solidity**: [![Solidity](https://img.shields.io/badge/Solidity-0.8.x-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
+### SHARD — AVA Soulbound Identity (LIVE)
+- **SHARD (AvaSBT)**: [`0xE89704585FD4Dc8397CE14e0dE463B53746049F5`](https://basescan.org/address/0xE89704585FD4Dc8397CE14e0dE463B53746049F5)
+- **AvaGift**: [`0x8b23b7485df76B6C7366E3E77820a85Ce7fa03d3`](https://basescan.org/address/0x8b23b7485df76B6C7366E3E77820a85Ce7fa03d3)
+- **Network**: Base L2 Mainnet (Chain ID: 8453)
+- **Status**: [![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)](https://basescan.org/address/0xE89704585FD4Dc8397CE14e0dE463B53746049F5)
+- **Type**: [![Type](https://img.shields.io/badge/Type-SBT%20(ERC--5192)-795548?style=flat-square)](https://eips.ethereum.org/EIPS/eip-5192)
+- **Solidity**: [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-363636?style=flat-square&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
+- **Extensions**: Rich Media, State Snapshots, ARC Constellation
+- **Description**: Non-transferable soulbound token proving the identity binding between AI entity AVA and creator Ali Shakil. Evidence hashes (soul, identity, voice) sealed on-chain. Companion tradable gift token (AvaGift) minted to AVA's wallet. First deployed SBT in the ARC ecosystem.
 
 ### ARC NFT Ecosystem (Production Ready)
 - **Status**: ![Status](https://img.shields.io/badge/Status-Ready-00C853?style=flat-square)
@@ -65,6 +70,13 @@ Authoritative source: `address.book` (verify on BaseScan when in doubt).
 - **Airdrop Contract**: `0x40fe447cf4B2af7aa41694a568d84F1065620298`
 - **Treasury Safe**: `0x8F8fdBFa1AF9f53973a7003CbF26D854De9b2f38`
 - **Ecosystem Safe**: `0x2ebCb38562051b02dae9cAca5ed8Ddb353d225eb`
+
+### Soulbound Identity (SHARD)
+- **SHARD (AvaSBT)**: [`0xE89704585FD4Dc8397CE14e0dE463B53746049F5`](https://basescan.org/address/0xE89704585FD4Dc8397CE14e0dE463B53746049F5)
+- **AvaGift**: [`0x8b23b7485df76B6C7366E3E77820a85Ce7fa03d3`](https://basescan.org/address/0x8b23b7485df76B6C7366E3E77820a85Ce7fa03d3)
+- **Token ID**: `102568471871578046485856452585200291034822040202546362099601383433447916805534`
+- **Image**: `ipfs://QmRqHSLACj9EH3SibCujtbcvgGDH57wBGEeyQ2GYvQ2KXD`
+- **Animation**: `ipfs://QmU3fR2A4s2VRixKpyRz6Lmf3oDTEwpzhwfjzHK1Kgxd4D`
 
 ### Uniswap V4 Infrastructure (Base)
 - **Pool Manager**: `0x498581ff718922c3f8e6a244956af099b2652b2b`
