@@ -93,7 +93,7 @@ contract L2GenesisVerifier {
         uint256 treasuryBalance,
         uint256 lastWithdrawalTimestamp,
         uint256 dailySpentAmount
-    ) external pure returns (bool valid, string memory reason) {
+    ) external view returns (bool valid, string memory reason) {
         uint256 maxAmount = (treasuryBalance * MAX_TREASURY_WITHDRAWAL_BPS) / 10000;
         if (amount > maxAmount) {
             return (false, "Exceeds max withdrawal per proposal (10%)");
@@ -122,7 +122,7 @@ contract L2GenesisVerifier {
     function validateGovernanceParameter(
         bytes32 paramName,
         uint256 newValue
-    ) external pure returns (bool valid, string memory reason) {
+    ) external view returns (bool valid, string memory reason) {
         if (paramName == keccak256("proposalThreshold")) {
             if (newValue < MIN_PROPOSAL_THRESHOLD_BPS || newValue > MAX_PROPOSAL_THRESHOLD_BPS) {
                 return (false, "Proposal threshold out of bounds");
@@ -154,7 +154,7 @@ contract L2GenesisVerifier {
         uint256 currentSupply,
         uint256 mintAmount,
         uint256 lastMintTimestamp
-    ) external pure returns (bool valid, string memory reason) {
+    ) external view returns (bool valid, string memory reason) {
         if (currentSupply + mintAmount > MAX_TOTAL_SUPPLY) {
             return (false, "Would exceed max total supply");
         }

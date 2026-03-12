@@ -57,8 +57,8 @@ abstract contract AdamGovernorIntegration {
     function _validateWithAdamOnSubmit(
         uint256 proposalId,
         uint8 category,
-        bytes calldata proofBundle,
-        bytes calldata diff
+        bytes memory proofBundle,
+        bytes memory diff
     ) internal returns (bool) {
         if (!adamEnabled || address(adamHost) == address(0)) {
             emit AdamValidationSkipped(proposalId, "ADAM not enabled");
@@ -66,7 +66,7 @@ abstract contract AdamGovernorIntegration {
         }
 
         uint256 topicId = categoryToTopic[category];
-        bytes4 hook = adamHost.HOOK_SUBMIT();
+        bytes4 hook = bytes4(keccak256("submit"));
         
         try adamHost.evaluate(hook, topicId, proposalId, proofBundle, diff) returns (
             uint8 verdict,
@@ -91,8 +91,8 @@ abstract contract AdamGovernorIntegration {
     function _validateWithAdamOnVoteStart(
         uint256 proposalId,
         uint8 category,
-        bytes calldata proofBundle,
-        bytes calldata diff
+        bytes memory proofBundle,
+        bytes memory diff
     ) internal returns (bool) {
         if (!adamEnabled || address(adamHost) == address(0)) {
             emit AdamValidationSkipped(proposalId, "ADAM not enabled");
@@ -100,7 +100,7 @@ abstract contract AdamGovernorIntegration {
         }
 
         uint256 topicId = categoryToTopic[category];
-        bytes4 hook = adamHost.HOOK_VOTE_START();
+        bytes4 hook = bytes4(keccak256("voteStart"));
         
         try adamHost.evaluate(hook, topicId, proposalId, proofBundle, diff) returns (
             uint8 verdict,
@@ -123,8 +123,8 @@ abstract contract AdamGovernorIntegration {
     function _validateWithAdamOnTally(
         uint256 proposalId,
         uint8 category,
-        bytes calldata proofBundle,
-        bytes calldata diff
+        bytes memory proofBundle,
+        bytes memory diff
     ) internal returns (bool) {
         if (!adamEnabled || address(adamHost) == address(0)) {
             emit AdamValidationSkipped(proposalId, "ADAM not enabled");
@@ -132,7 +132,7 @@ abstract contract AdamGovernorIntegration {
         }
 
         uint256 topicId = categoryToTopic[category];
-        bytes4 hook = adamHost.HOOK_TALLY();
+        bytes4 hook = bytes4(keccak256("tally"));
         
         try adamHost.evaluate(hook, topicId, proposalId, proofBundle, diff) returns (
             uint8 verdict,
@@ -155,8 +155,8 @@ abstract contract AdamGovernorIntegration {
     function _validateWithAdamOnQueue(
         uint256 proposalId,
         uint8 category,
-        bytes calldata proofBundle,
-        bytes calldata diff
+        bytes memory proofBundle,
+        bytes memory diff
     ) internal returns (bool, bool) {
         if (!adamEnabled || address(adamHost) == address(0)) {
             emit AdamValidationSkipped(proposalId, "ADAM not enabled");
@@ -164,7 +164,7 @@ abstract contract AdamGovernorIntegration {
         }
 
         uint256 topicId = categoryToTopic[category];
-        bytes4 hook = adamHost.HOOK_QUEUE();
+        bytes4 hook = bytes4(keccak256("queue"));
         
         try adamHost.evaluate(hook, topicId, proposalId, proofBundle, diff) returns (
             uint8 verdict,
@@ -193,8 +193,8 @@ abstract contract AdamGovernorIntegration {
     function _validateWithAdamOnExecute(
         uint256 proposalId,
         uint8 category,
-        bytes calldata proofBundle,
-        bytes calldata diff
+        bytes memory proofBundle,
+        bytes memory diff
     ) internal returns (bool) {
         if (!adamEnabled || address(adamHost) == address(0)) {
             emit AdamValidationSkipped(proposalId, "ADAM not enabled");
@@ -202,7 +202,7 @@ abstract contract AdamGovernorIntegration {
         }
 
         uint256 topicId = categoryToTopic[category];
-        bytes4 hook = adamHost.HOOK_EXECUTE();
+        bytes4 hook = bytes4(keccak256("execute"));
         
         try adamHost.evaluate(hook, topicId, proposalId, proofBundle, diff) returns (
             uint8 verdict,

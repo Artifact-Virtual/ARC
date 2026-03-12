@@ -21,7 +21,7 @@ interface IARCProtocolGenesis {
         uint256 treasuryBalance,
         uint256 lastWithdrawalTimestamp,
         uint256 dailySpentAmount
-    ) external pure returns (bool valid, string memory reason);
+    ) external view returns (bool valid, string memory reason);
     
     /**
      * @notice Validates proposed governance parameter change
@@ -33,7 +33,7 @@ interface IARCProtocolGenesis {
     function validateGovernanceParameter(
         bytes32 paramName,
         uint256 newValue
-    ) external pure returns (bool valid, string memory reason);
+    ) external view returns (bool valid, string memory reason);
     
     /**
      * @notice Validates token minting against max supply and inflation limits
@@ -47,7 +47,7 @@ interface IARCProtocolGenesis {
         uint256 currentSupply,
         uint256 mintAmount,
         uint256 lastMintTimestamp
-    ) external pure returns (bool valid, string memory reason);
+    ) external view returns (bool valid, string memory reason);
     
     /**
      * @notice Validates emergency pause action
@@ -59,7 +59,7 @@ interface IARCProtocolGenesis {
     function validateEmergencyPause(
         uint256 pauseDuration,
         uint256 councilSigners
-    ) external pure returns (bool valid, string memory reason);
+    ) external view returns (bool valid, string memory reason);
     
     /**
      * @notice Validates chain ID for cross-chain operations

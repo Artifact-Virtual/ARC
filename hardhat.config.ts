@@ -59,13 +59,14 @@ const config: HardhatUserConfig = {
       },
       {
         // For Genesis and ADAM policy contracts
-        // Uses balanced optimization (runs: 200)
+        // Uses balanced optimization (runs: 200) + viaIR to avoid stack-too-deep
         version: "0.8.26",
         settings: {
           optimizer: {
             enabled: true,
             runs: 200,
           },
+          viaIR: true,
         },
       }
     ]

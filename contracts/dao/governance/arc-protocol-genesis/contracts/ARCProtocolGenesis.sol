@@ -232,7 +232,7 @@ contract ARCProtocolGenesis is IARCProtocolGenesis {
         uint256 treasuryBalance,
         uint256 lastWithdrawalTimestamp,
         uint256 dailySpentAmount
-    ) external pure override returns (bool valid, string memory reason) {
+    ) external view override returns (bool valid, string memory reason) {
         // Check: Amount doesn't exceed max per proposal
         uint256 maxAmount = (treasuryBalance * MAX_TREASURY_WITHDRAWAL_BPS) / 10000;
         if (amount > maxAmount) {
@@ -268,7 +268,7 @@ contract ARCProtocolGenesis is IARCProtocolGenesis {
     function validateGovernanceParameter(
         bytes32 paramName,
         uint256 newValue
-    ) external pure override returns (bool valid, string memory reason) {
+    ) external view override returns (bool valid, string memory reason) {
         if (paramName == keccak256("proposalThreshold")) {
             if (newValue < MIN_PROPOSAL_THRESHOLD_BPS) {
                 return (false, "Proposal threshold below minimum (0.1%)");
@@ -324,7 +324,7 @@ contract ARCProtocolGenesis is IARCProtocolGenesis {
         uint256 currentSupply,
         uint256 mintAmount,
         uint256 lastMintTimestamp
-    ) external pure override returns (bool valid, string memory reason) {
+    ) external view override returns (bool valid, string memory reason) {
         // Check: Would not exceed max total supply
         if (currentSupply + mintAmount > MAX_TOTAL_SUPPLY) {
             return (false, "Would exceed max total supply (1 billion)");

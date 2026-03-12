@@ -1,0 +1,23 @@
+{
+  "network": "base-sepolia",
+  "deployedAt": "2026-03-11T",
+  "ARCxV3_proxy": "0xf754823df62c98618b3233b8B1701aE8Fdd027E5",
+  "ARCxV3_impl": "lookup-post-deploy",
+  "ARCsV1_proxy": "0xEEc0298bE76C9C3224eA05a34687C1a1134d550B",
+  "ARCsV1_impl": "lookup-post-deploy",
+  "StakingVault": "0x6e97fbEaDfb5Aa9650d857D974923B63bF641588",
+  "StakingVault_impl": "lookup-post-deploy",
+  "ComputeGateway": "pending",
+  "ArtifactTreasury": "pending",
+  "SHARD": "0xE89704585FD4Dc8397CE14e0dE463B53746049F5",
+  "TREASURY_SAFE": "0x8F8fdBFa1AF9f53973a7003CbF26D854De9b2f38",
+  "ECOSYSTEM_SAFE": "0x2ebCb38562051b02dae9cAca5ed8Ddb353d225eb",
+  "BRIDGE_WALLET": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "AVA_WALLET": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "ARIA_WALLET": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "SINGULARITY_WALLET": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "DEPLOYER": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "ARCxV2_LEGACY": "0xDb3C3f9ECb93f3532b4FD5B050245dd2F2Eec437",
+  "ARCxMath_LEGACY": "0xdfB7271303467d58F6eFa10461c9870Ed244F530",
+  "_status": "PARTIAL — ComputeGateway and ArtifactTreasury pending (waiting for testnet ETH refuel)"
+}
