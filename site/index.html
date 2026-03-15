@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARC — Artifact Virtual On-Chain</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface-2: #1a1a26;
+    --border: #2a2a3a;
+    --border-glow: #7c6aff33;
+    --text: #e8e8f0;
+    --text-dim: #8888a0;
+    --text-muted: #555568;
+    --purple: #7c6aff;
+    --purple-dim: #7c6aff88;
+    --green: #34d399;
+    --green-dim: #34d39944;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --blue: #3b82f6;
+    --cyan: #06b6d4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ═══ HERO ═══ */
+  .hero {
+    position: relative;
+    padding: 80px 40px 60px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, var(--purple-dim) 0%, transparent 70%);
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-dim);
+    margin-bottom: 32px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .hero-badge .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .hero h1 {
+    font-size: clamp(48px, 8vw, 96px);
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 0.95;
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, var(--text) 0%, var(--purple) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero .subtitle {
+    font-size: 18px;
+    color: var(--text-dim);
+    max-width: 600px;
+    margin: 0 auto 48px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* ═══ GENESIS CARD ═══ */
+  .genesis-section {
+    padding: 0 40px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .genesis-card {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 48px;
+    overflow: hidden;
+  }
+
+  .genesis-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--purple), transparent);
+  }
+
+  .genesis-card::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, var(--purple-dim) 0%, transparent 70%);
+    opacity: 0.08;
+    pointer-events: none;
+  }
+
+  .genesis-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--purple);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .genesis-label .token-id {
+    background: var(--purple);
+    color: var(--bg);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+
+  .genesis-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+  }
+
+  .genesis-desc {
+    color: var(--text-dim);
+    font-size: 15px;
+    margin-bottom: 32px;
+    line-height: 1.6;
+  }
+
+  .genesis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .genesis-stat {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .genesis-stat .label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .genesis-stat .value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: var(--text);
+    word-break: break-all;
+    line-height: 1.5;
+  }
+
+  .genesis-stat .value.highlight {
+    color: var(--purple);
+    font-weight: 700;
+  }
+
+  .genesis-stat .value.green {
+    color: var(--green);
+  }
+
+  .hash-row {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+  }
+
+  .hash-row .label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  .hash-row .value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-dim);
+    word-break: break-all;
+  }
+
+  /* ═══ CONTRACTS TABLE ═══ */
+  .contracts-section {
+    padding: 0 40px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+
+  .section-header p {
+    color: var(--text-dim);
+    font-size: 15px;
+  }
+
+  .contract-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+  }
+
+  .contract-card:hover {
+    border-color: var(--border-glow);
+  }
+
+  .contract-card.deprecated {
+    opacity: 0.5;
+  }
+
+  .contract-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .contract-name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .contract-type {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+  }
+
+  .contract-address {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: var(--purple);
+    margin-bottom: 12px;
+    word-break: break-all;
+  }
+
+  .contract-address a {
+    color: var(--purple);
+    text-decoration: none;
+    border-bottom: 1px solid var(--purple-dim);
+  }
+
+  .contract-address a:hover {
+    border-bottom-color: var(--purple);
+  }
+
+  .contract-desc {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .contract-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .tag.active { border-color: var(--green-dim); color: var(--green); }
+  .tag.deprecated { border-color: #f59e0b33; color: var(--amber); }
+  .tag.soulbound { border-color: var(--border-glow); color: var(--purple); }
+
+  /* ═══ WALLET TOPOLOGY ═══ */
+  .wallets-section {
+    padding: 0 40px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .wallet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 16px;
+  }
+
+  .wallet-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .wallet-label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .wallet-type {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .wallet-address {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-dim);
+    word-break: break-all;
+  }
+
+  .wallet-address a {
+    color: var(--text-dim);
+    text-decoration: none;
+  }
+
+  .wallet-address a:hover { color: var(--purple); }
+
+  /* ═══ INFRASTRUCTURE ═══ */
+  .infra-section {
+    padding: 0 40px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .infra-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .infra-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .infra-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .infra-card .infra-desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .infra-stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+  }
+
+  .infra-stat .k { color: var(--text-muted); }
+  .infra-stat .v { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text); }
+
+  /* ═══ FOOTER ═══ */
+  .footer {
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer p {
+    color: var(--text-muted);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .footer a {
+    color: var(--purple);
+    text-decoration: none;
+  }
+
+  /* ═══ RESPONSIVE ═══ */
+  @media (max-width: 768px) {
+    .hero { padding: 60px 20px 40px; }
+    .genesis-section, .contracts-section, .wallets-section, .infra-section { padding: 0 20px 60px; }
+    .genesis-card { padding: 28px 20px; }
+    .genesis-grid { grid-template-columns: 1fr; }
+    .wallet-grid { grid-template-columns: 1fr; }
+    .infra-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="hero-badge">
+    <span class="dot"></span>
+    Base Sepolia · Live
+  </div>
+  <h1>ARC</h1>
+  <p class="subtitle">
+    Artifact Virtual's on-chain infrastructure. Every contract deployed, every token minted, 
+    every snapshot pinned — verified, immutable, ours.
+  </p>
+</section>
+
+<!-- ═══ GENESIS TOKEN ═══ -->
+<section class="genesis-section">
+  <div class="genesis-card">
+    <div class="genesis-label">
+      ArtifactSnapshot <span class="token-id">#0</span>
+    </div>
+    <h2 class="genesis-title">ARC:0 — Genesis</h2>
+    <p class="genesis-desc">
+      The first enterprise snapshot ever minted. 5,774 files across the entire Artifact Virtual 
+      codebase — encrypted, pinned to our own IPFS node, and registered on Base as a soulbound NFT. 
+      No vendor. No intermediary. We are the infrastructure.
+    </p>
+    <div class="genesis-grid">
+      <div class="genesis-stat">
+        <div class="label">Files</div>
+        <div class="value highlight">5,774</div>
+      </div>
+      <div class="genesis-stat">
+        <div class="label">Size</div>
+        <div class="value">176.4 MB</div>
+      </div>
+      <div class="genesis-stat">
+        <div class="label">Minted</div>
+        <div class="value">2026-03-15 07:38:18 UTC</div>
+      </div>
+      <div class="genesis-stat">
+        <div class="label">Status</div>
+        <div class="value green">● Soulbound · Non-transferable</div>
+      </div>
+    </div>
+    <div class="hash-row">
+      <div class="label">IPFS CID</div>
+      <div class="value">QmX1FsW2Kxe5fPtH1SfuFGNVqexfo7H1jwkg4Gg5F3KVWX</div>
+    </div>
+    <div class="hash-row">
+      <div class="label">Content Hash (SHA-256)</div>
+      <div class="value">0x0b9c7cba38f337001c143e5380506442512754a3d8443b6eed1a373a36802a32</div>
+    </div>
+    <div class="hash-row">
+      <div class="label">Encrypted Hash (SHA-256)</div>
+      <div class="value">0xd649e0e1f5d9f2ce6aa29dcace7120b9e03d92a1ffaaae84b36ce843a770dbea</div>
+    </div>
+    <div class="hash-row">
+      <div class="label">Contract</div>
+      <div class="value"><a href="https://sepolia.basescan.org/address/0xC54D2194B464e9cbaFdD88f6F500Ae2622474daC" target="_blank" style="color:var(--purple)">0xC54D2194B464e9cbaFdD88f6F500Ae2622474daC</a></div>
+    </div>
+    <div class="hash-row">
+      <div class="label">Deploy TX</div>
+      <div class="value"><a href="https://sepolia.basescan.org/tx/0x4ac9c6cca663694bf70fc656feb60efa4d894921f2ef52e8e90fbf487d2641ff" target="_blank" style="color:var(--purple)">0x4ac9c6cca663694bf70fc656feb60efa4d894921f2ef52e8e90fbf487d2641ff</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DEPLOYED CONTRACTS ═══ -->
+<section class="contracts-section">
+  <div class="section-header">
+    <h2>Deployed Contracts</h2>
+    <p>All smart contracts deployed by Artifact Virtual on Base.</p>
+  </div>
+
+  <div class="contract-card">
+    <div class="contract-header">
+      <span class="contract-name">SHARD</span>
+      <span class="contract-type">ERC-20</span>
+    </div>
+    <div class="contract-address">
+      <a href="https://sepolia.basescan.org/address/0xE89704585FD4Dc8397CE14e0dE463B53746049F5" target="_blank">0xE89704585FD4Dc8397CE14e0dE463B53746049F5</a>
+    </div>
+    <p class="contract-desc">ARC governance and utility token. Powers the Artifact Research Collective — voting, staking, and protocol participation.</p>
+    <div class="contract-tags">
+      <span class="tag active">Active</span>
+      <span class="tag">Governance</span>
+      <span class="tag">Utility</span>
+    </div>
+  </div>
+
+  <div class="contract-card">
+    <div class="contract-header">
+      <span class="contract-name">ArtifactSnapshot</span>
+      <span class="contract-type">ERC-721 Soulbound</span>
+    </div>
+    <div class="contract-address">
+      <a href="https://sepolia.basescan.org/address/0xC54D2194B464e9cbaFdD88f6F500Ae2622474daC" target="_blank">0xC54D2194B464e9cbaFdD88f6F500Ae2622474daC</a>
+    </div>
+    <p class="contract-desc">Soulbound NFT for enterprise backup provenance. Each token represents an encrypted snapshot of the entire codebase, pinned to IPFS with full on-chain metadata — CID, content hash, encrypted hash, file count, and size. Non-transferable. Daily automated minting via pipeline.</p>
+    <div class="contract-tags">
+      <span class="tag active">Active</span>
+      <span class="tag soulbound">Soulbound</span>
+      <span class="tag">Provenance</span>
+      <span class="tag">IPFS</span>
+    </div>
+  </div>
+
+  <div class="contract-card deprecated">
+    <div class="contract-header">
+      <span class="contract-name">ArtifactVault</span>
+      <span class="contract-type">ERC-721 Soulbound</span>
+    </div>
+    <div class="contract-address">
+      <a href="https://sepolia.basescan.org/address/0x4E5785633f69Ba9675eb5f0F69EDE7A374e8846c" target="_blank">0x4E5785633f69Ba9675eb5f0F69EDE7A374e8846c</a>
+    </div>
+    <p class="contract-desc">Legacy vault contract. Superseded by ArtifactSnapshot which adds provenance chain linking, pipeline health gates, and richer on-chain metadata.</p>
+    <div class="contract-tags">
+      <span class="tag deprecated">Deprecated</span>
+      <span class="tag">Legacy</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WALLET TOPOLOGY ═══ -->
+<section class="wallets-section">
+  <div class="section-header">
+    <h2>Wallet Topology</h2>
+    <p>On-chain wallet infrastructure.</p>
+  </div>
+  <div class="wallet-grid">
+    <div class="wallet-card">
+      <div class="wallet-label">
+        Bridge / Deployer
+        <span class="wallet-type">EOA</span>
+      </div>
+      <div class="wallet-address">
+        <a href="https://sepolia.basescan.org/address/0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B" target="_blank">0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B</a>
+      </div>
+    </div>
+    <div class="wallet-card">
+      <div class="wallet-label">
+        Treasury Safe
+        <span class="wallet-type">Gnosis Safe</span>
+      </div>
+      <div class="wallet-address">
+        <a href="https://sepolia.basescan.org/address/0x8F8fdBFa1AF9f53973a7003CbF26D854De9b2f38" target="_blank">0x8F8fdBFa1AF9f53973a7003CbF26D854De9b2f38</a>
+      </div>
+    </div>
+    <div class="wallet-card">
+      <div class="wallet-label">
+        Ecosystem Safe
+        <span class="wallet-type">Gnosis Safe</span>
+      </div>
+      <div class="wallet-address">
+        <a href="https://sepolia.basescan.org/address/0x2ebCb38562051b02dae9cAca5ed8Ddb353d225eb" target="_blank">0x2ebCb38562051b02dae9cAca5ed8Ddb353d225eb</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ INFRASTRUCTURE ═══ -->
+<section class="infra-section">
+  <div class="section-header">
+    <h2>Infrastructure</h2>
+    <p>Self-hosted. Zero vendor dependency.</p>
+  </div>
+  <div class="infra-grid">
+    <div class="infra-card">
+      <h3>⚡ Singularity Runtime</h3>
+      <p class="infra-desc">Autonomous enterprise runtime. 13 subsystems, 28 tools, self-optimizing. Manages the entire operation without human intervention.</p>
+      <div class="infra-stat"><span class="k">Subsystems</span><span class="v">13</span></div>
+      <div class="infra-stat"><span class="k">Codebase</span><span class="v">31,261 lines</span></div>
+      <div class="infra-stat"><span class="k">Tools</span><span class="v">28 native</span></div>
+      <div class="infra-stat"><span class="k">Status</span><span class="v" style="color:var(--green)">● Operational</span></div>
+    </div>
+    <div class="infra-card">
+      <h3>📌 IPFS Node</h3>
+      <p class="infra-desc">Self-hosted Kubo node. Enterprise snapshots pinned locally, replicated across the IPFS network. No Pinata. No web3.storage. We are the pin.</p>
+      <div class="infra-stat"><span class="k">Version</span><span class="v">Kubo 0.33.0</span></div>
+      <div class="infra-stat"><span class="k">Peers</span><span class="v">90+</span></div>
+      <div class="infra-stat"><span class="k">Status</span><span class="v" style="color:var(--green)">● Connected</span></div>
+    </div>
+    <div class="infra-card">
+      <h3>🔐 Crypt Vault</h3>
+      <p class="infra-desc">Enterprise secret management. AES-256-GCM encryption, Scrypt key derivation, namespace isolation, append-only audit trail.</p>
+      <div class="infra-stat"><span class="k">Secrets</span><span class="v">515</span></div>
+      <div class="infra-stat"><span class="k">Namespaces</span><span class="v">16</span></div>
+      <div class="infra-stat"><span class="k">Encryption</span><span class="v">AES-256-GCM</span></div>
+      <div class="infra-stat"><span class="k">Status</span><span class="v" style="color:var(--green)">● Sealed</span></div>
+    </div>
+    <div class="infra-card">
+      <h3>🛡️ Sentinel</h3>
+      <p class="infra-desc">Security perimeter. ExfilGuard network monitor, YARA scanning, real-time threat assessment with automated CISO dispatch.</p>
+      <div class="infra-stat"><span class="k">ExfilGuard</span><span class="v">Active</span></div>
+      <div class="infra-stat"><span class="k">YARA Rules</span><span class="v">Loaded</span></div>
+      <div class="infra-stat"><span class="k">Status</span><span class="v" style="color:var(--green)">● Monitoring</span></div>
+    </div>
+    <div class="infra-card">
+      <h3>📊 Snapshot Pipeline</h3>
+      <p class="infra-desc">Daily automated enterprise backup. 10-stage gate pattern — collect, compress, encrypt, pin, mint. Any failure halts. Bad data never reaches chain.</p>
+      <div class="infra-stat"><span class="k">Frequency</span><span class="v">Daily 03:00 UTC</span></div>
+      <div class="infra-stat"><span class="k">Encryption</span><span class="v">AES-256-GCM + Scrypt</span></div>
+      <div class="infra-stat"><span class="k">Stages</span><span class="v">10 (gated)</span></div>
+      <div class="infra-stat"><span class="k">Status</span><span class="v" style="color:var(--green)">● Armed</span></div>
+    </div>
+    <div class="infra-card">
+      <h3>🌐 Network</h3>
+      <p class="infra-desc">Chain: Base (Coinbase L2). Fast, cheap, EVM-compatible. Sepolia testnet for development, mainnet deployment pending.</p>
+      <div class="infra-stat"><span class="k">Chain</span><span class="v">Base Sepolia</span></div>
+      <div class="infra-stat"><span class="k">Chain ID</span><span class="v">84532</span></div>
+      <div class="infra-stat"><span class="k">RPC</span><span class="v">Infura</span></div>
+      <div class="infra-stat"><span class="k">Explorer</span><span class="v">BaseScan</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <p>
+    Built by <a href="https://artifactvirtual.com" target="_blank">Artifact Virtual</a><br>
+    Powered by Singularity ⚡ · Designed by Ali · Built by AVA 🔮<br>
+    <span style="color:var(--text-muted)">If it computes, it will work.</span>
+  </p>
+</footer>
+
+</body>
+</html>
