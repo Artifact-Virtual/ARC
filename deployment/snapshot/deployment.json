@@ -1,0 +1,9 @@
+{
+  "contract": "ArtifactSnapshot",
+  "address": "0xC54D2194B464e9cbaFdD88f6F500Ae2622474daC",
+  "deployer": "0x21E914dFBB137F7fEC896F11bC8BAd6BCCDB147B",
+  "network": "base-sepolia",
+  "chainId": "84532",
+  "deployedAt": "2026-03-15T07:35:02.838Z",
+  "txHash": "0x4ac9c6cca663694bf70fc656feb60efa4d894921f2ef52e8e90fbf487d2641ff"
+}
